@@ -23,7 +23,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -351,7 +370,7 @@ ul.task-list li input[type="checkbox"] {
   </ul></li>
   <li><a href="#omnic-and-tellseq" id="toc-omnic-and-tellseq" class="nav-link" data-scroll-target="#omnic-and-tellseq">OmniC and Tellseq</a></li>
   <li><a href="#methylation-specific-sequencing" id="toc-methylation-specific-sequencing" class="nav-link" data-scroll-target="#methylation-specific-sequencing">Methylation-Specific Sequencing</a></li>
-  <li><a href="#pacpio-long-read-transcriptome-from-pleural-ganglia" id="toc-pacpio-long-read-transcriptome-from-pleural-ganglia" class="nav-link" data-scroll-target="#pacpio-long-read-transcriptome-from-pleural-ganglia">PacPio Long-Read Transcriptome from Pleural Ganglia</a></li>
+  <li><a href="#pacbio-long-read-transcriptome-from-pleural-ganglia" id="toc-pacbio-long-read-transcriptome-from-pleural-ganglia" class="nav-link" data-scroll-target="#pacbio-long-read-transcriptome-from-pleural-ganglia">PacBio Long-Read Transcriptome from Pleural Ganglia</a></li>
   </ul>
 </nav>
     </div>
@@ -382,6 +401,12 @@ ul.task-list li input[type="checkbox"] {
 <p>You are welcome to pull these files for your own analyses and projects; please cite this page (or our pending paper describing these projects once we finally get it posted).</p>
 <section id="genomic-sequencing" class="level1">
 <h1>Genomic Sequencing</h1>
+<p>Genomic sequencing was completed from muscle tissue isolated from the body wall. Animals were anesthetized, chunks of body wall tissue were quickly extracted and then flash frozen. Samples were collected on 6/27/2023 (after a failed attempt to extract from nervous system tissue) from two animals, with the intention of using one for sequencing and one as a backup. Animal 2047 ended up being used for all genomic sequencing.</p>
+<p><img src="images/genomic_samples.png" class="img-fluid"></p>
+<p>First attempt at extraction did not yield desired outputs:</p>
+<p><img src="images/genomic_extraction.png" class="img-fluid"></p>
+<p>We found a technical note from PacBio with specific recs for Aplysia. It doesn’t seem to be posted anymore (?), but is still mentioned <a href="https://www.google.com/url?sa=t&amp;source=web&amp;rct=j&amp;opi=89978449&amp;url=https://www.pacb.com/wp-content/uploads/Overview-Nanobind-HMW-DNA-extraction-overview.pdf&amp;ved=2ahUKEwiZxt2a96yVAxVm8MkDHWfqABQQFnoECBcQAQ&amp;usg=AOvVaw1OMv1DosXjUrpzuXx9wIAO">here</a> (and also see: <span class="citation" data-cites="Alberola-Mora2025">(<a href="#ref-Alberola-Mora2025" role="doc-biblioref">Alberola-Mora et al. 2025</a>)</span>). The tweaks suggested from PacBio led to very successful extraction:</p>
+<p><img src="images/genomic_extraction2.png" class="img-fluid"></p>
 <section id="first-run" class="level2">
 <h2 class="anchored" data-anchor-id="first-run">First Run</h2>
 <p>File:&nbsp;<a href="https://www.dropbox.com/scl/fi/ipo8wfidm3qsg4ka4brit/UIC_Genomics_Aplysia_1_m64108e_230727_144537.hifi_reads.bam?rlkey=5cj9vlwcmwqo0fh36wwjvwugh&amp;st=1z5ad68a&amp;dl=0">UIC_Genomics_Aplysia_1_m64108e_230727_144537.hifi_reads.bam&nbsp;&nbsp;&nbsp;&nbsp;39.51 GB</a><br>
@@ -403,6 +428,8 @@ File:&nbsp;<a href="https://www.dropbox.com/scl/fi/1knugfj5b0mgwqsjvs9w2/UIC_Gen
 </section>
 <section id="omnic-and-tellseq" class="level1">
 <h1>OmniC and Tellseq</h1>
+<p>We conducted Tell-SEQ from material extracted from muscle samples of animal 2047, the same animal used for the long-read genomic sequencing above.</p>
+<p>We conducted OmniC from material extracted from muscle samples of animal 2048, as there was no longer sufficient material for this analysis from animal 2047.</p>
 <p>File:&nbsp;MultiQC_UICGenomics_Aplysia_OmniC_2023924.html&nbsp;&nbsp;&nbsp;&nbsp;&lt;1 GB<br>
 File:&nbsp;QC_Analysis_Aplysia_Muscles_nobc.html&nbsp;&nbsp;&nbsp;&nbsp;&lt;1 GB<br>
 File:&nbsp;UICGenomics_Aplysia_OmniC_2023924.tar.bz2&nbsp;&nbsp;&nbsp;&nbsp;93.89 GB<br>
@@ -418,8 +445,16 @@ File:&nbsp;<a href="https://www.dropbox.com/scl/fi/tlutc6mhtvj7ji9f5b6ut/Project
 <p>Summary report: <a href="https://www.dropbox.com/scl/fi/log0kiun5xkx31v3ukkz2/Report_Aplysia_2_EMSeq_2023713.xlsx?rlkey=xdjfts6p47isugkluv7i9krmf&amp;st=t6hlfb4j&amp;dl=0">Report_Aplysia_2_EMSeq_2023713.xlsx</a></p>
 <p>The methylation libraries have been sequenced on an SP lane with 2x150nt reads and produced over 720 million reads with great quality scores.</p>
 </section>
-<section id="pacpio-long-read-transcriptome-from-pleural-ganglia" class="level1">
-<h1>PacPio Long-Read Transcriptome from Pleural Ganglia</h1>
+<section id="pacbio-long-read-transcriptome-from-pleural-ganglia" class="level1">
+<h1>PacBio Long-Read Transcriptome from Pleural Ganglia</h1>
+<p>Samples were prepared on 6/7/2023:</p>
+<ul>
+<li><p>Four animals underwent standard long-term sensitization training (4 rounds of painful shocks, each round a train of 0.5 ms 90 mA 60hz shocks at an ISI of 1 minute.</p></li>
+<li><p>One day after training, animals were anesthetized and pleural ganglia were rapidly harvested. We combined tissue from 2 animals, one left-trained and 1 right-trained. The trained sample contained the left-pleural ganglion from the left-trained animal and the right pleural ganglia from the right-trained animal. The control sample contained the right-pleural ganglion from the left-trained animal and the left pleural ganglion from the right-trained animal.</p></li>
+<li><p>Ganglia were homogenized and RNA was then extracted:</p></li>
+</ul>
+<p><img src="images/transcriptome_samples.png" class="img-fluid"></p>
+<p>Sample Z362 was selected for sequencing.</p>
 <p>File:&nbsp;<a href="https://www.dropbox.com/scl/fi/osorvxv5x92fb2sfu9f3i/UIC_GENOMICS_Z362T_Trained_hq_transcripts.fasta?rlkey=nfzldgkrprbtjsrcumw8z8h3p&amp;st=t3hzx6my&amp;dl=0">UIC_GENOMICS_Z362T_Trained_hq_transcripts.fasta&nbsp;&nbsp;&nbsp;&nbsp;0.49 GB</a><br>
 File:&nbsp;<a href="https://www.dropbox.com/scl/fi/cqmup29fnuqn21uaty9s1/UIC_GENOMICS_Z362T_Trained_m64108e_230619_050826.hifi_reads.bam?rlkey=npfuntcv6u6mqonb0gyulm30u&amp;st=xbyms8p5&amp;dl=0">UIC_GENOMICS_Z362T_Trained_m64108e_230619_050826.hifi_reads.bam&nbsp;&nbsp;&nbsp;&nbsp;32.05 GB</a><br>
 File:&nbsp;<a href="https://www.dropbox.com/scl/fi/q8s02vbtmg3ff7h1ktgfl/UIC_GENOMICS_Z362T_Trained_m64108e_230619_050826.hifi_reads.fastq.gz?rlkey=vk9hunmtird14v60svz6fwfs6&amp;st=jlmprk7p&amp;dl=0">UIC_GENOMICS_Z362T_Trained_m64108e_230619_050826.hifi_reads.fastq.gz&nbsp;&nbsp;&nbsp;&nbsp;4.13 GB</a><br>
@@ -432,9 +467,14 @@ File:&nbsp;<a href="https://www.dropbox.com/scl/fi/9wyrynkqt2ubi45n7kfi3/UIC_Gen
 <p>The clustered transcripts are an immediate new resource, very exciting!</p>
 
 
+
 </section>
 
-</main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-Alberola-Mora2025" class="csl-entry" role="listitem">
+Alberola-Mora, Inés, Oleanna Guerra-Font, Omar Daniel Espinoza-Calderón, Carles Galià-Camps, and Mária Džunková. 2025. <span>“Combination of Sample Preservation Approaches and DNA Extraction Methods for Long<span>-</span>Read Sequencing of Nudibranchs’ Genomes.”</span> <em>Ecology and Evolution</em> 15 (4). <a href="https://doi.org/10.1002/ece3.71262">https://doi.org/10.1002/ece3.71262</a>.
+</div>
+</div></section></div></main> <!-- /main -->
 <script>
 
 

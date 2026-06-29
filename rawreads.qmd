@@ -1,6 +1,7 @@
 ---
 title: "Raw Reads"
 title-block-banner: false
+bibliography: references.bib
 ---
 
 These pages organizes downloads of raw reads from various *Aplysia* sequencing projects the Slug Lab has carried out in collaboration with the University of Illinois. Downloads are provided via DropBox. If you find a bad link or an inaccessible file, please let us know.
@@ -8,6 +9,18 @@ These pages organizes downloads of raw reads from various *Aplysia* sequencing p
 You are welcome to pull these files for your own analyses and projects; please cite this page (or our pending paper describing these projects once we finally get it posted).
 
 # Genomic Sequencing
+
+Genomic sequencing was completed from muscle tissue isolated from the body wall. Animals were anesthetized, chunks of body wall tissue were quickly extracted and then flash frozen. Samples were collected on 6/27/2023 (after a failed attempt to extract from nervous system tissue) from two animals, with the intention of using one for sequencing and one as a backup. Animal 2047 ended up being used for all genomic sequencing.
+
+![](images/genomic_samples.png)
+
+First attempt at extraction did not yield desired outputs:
+
+![](images/genomic_extraction.png)
+
+We found a technical note from PacBio with specific recs for Aplysia. It doesn't seem to be posted anymore (?), but is still mentioned [here](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.pacb.com/wp-content/uploads/Overview-Nanobind-HMW-DNA-extraction-overview.pdf&ved=2ahUKEwiZxt2a96yVAxVm8MkDHWfqABQQFnoECBcQAQ&usg=AOvVaw1OMv1DosXjUrpzuXx9wIAO) (and also see: [@Alberola-Mora2025]). The tweaks suggested from PacBio led to very successful extraction:
+
+![](images/genomic_extraction2.png)
 
 ## First Run
 
@@ -33,6 +46,10 @@ Summary report: [UIC_Genomics_Aplysia_HiFi_report_20230824.xlsx](https://www.dro
 
 # OmniC and Tellseq
 
+We conducted Tell-SEQ from material extracted from muscle samples of animal 2047, the same animal used for the long-read genomic sequencing above.
+
+We conducted OmniC from material extracted from muscle samples of animal 2048, as there was no longer sufficient material for this analysis from animal 2047.
+
 File: MultiQC_UICGenomics_Aplysia_OmniC_2023924.html    \<1 GB\
 File: QC_Analysis_Aplysia_Muscles_nobc.html    \<1 GB\
 File: UICGenomics_Aplysia_OmniC_2023924.tar.bz2    93.89 GB\
@@ -53,7 +70,19 @@ Summary report: [Report_Aplysia_2_EMSeq_2023713.xlsx](https://www.dropbox.com/sc
 
 The methylation libraries have been sequenced on an SP lane with 2x150nt reads and produced over 720 million reads with great quality scores.
 
-# PacPio Long-Read Transcriptome from Pleural Ganglia
+# PacBio Long-Read Transcriptome from Pleural Ganglia
+
+Samples were prepared on 6/7/2023:
+
+- Four animals underwent standard long-term sensitization training (4 rounds of painful shocks, each round a train of 0.5 ms 90 mA 60hz shocks at an ISI of 1 minute.
+
+- One day after training, animals were anesthetized and pleural ganglia were rapidly harvested. We combined tissue from 2 animals, one left-trained and 1 right-trained. The trained sample contained the left-pleural ganglion from the left-trained animal and the right pleural ganglia from the right-trained animal. The control sample contained the right-pleural ganglion from the left-trained animal and the left pleural ganglion from the right-trained animal.
+
+- Ganglia were homogenized and RNA was then extracted:
+
+![](images/transcriptome_samples.png)
+
+Sample Z362 was selected for sequencing.
 
 File: [UIC_GENOMICS_Z362T_Trained_hq_transcripts.fasta    0.49 GB](https://www.dropbox.com/scl/fi/osorvxv5x92fb2sfu9f3i/UIC_GENOMICS_Z362T_Trained_hq_transcripts.fasta?rlkey=nfzldgkrprbtjsrcumw8z8h3p&st=t3hzx6my&dl=0)\
 File: [UIC_GENOMICS_Z362T_Trained_m64108e_230619_050826.hifi_reads.bam    32.05 GB](https://www.dropbox.com/scl/fi/cqmup29fnuqn21uaty9s1/UIC_GENOMICS_Z362T_Trained_m64108e_230619_050826.hifi_reads.bam?rlkey=npfuntcv6u6mqonb0gyulm30u&st=xbyms8p5&dl=0)\
