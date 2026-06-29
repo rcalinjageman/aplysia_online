@@ -1,0 +1,44 @@
+---
+title: "Where have you gone, early transcriptional changes?"
+author: "Bob Calin-Jageman"
+date: "2026-03-30"
+categories: [Research]
+bibliography: references.bib
+image: "image.png"
+---
+
+The slug lab has a new paper out, again with student co-authors (Tania Rosiles and Melissa Nguyen, congrats!):
+
+Rosiles, Tania, Melissa Nguyen, Robert J. Calin-Jageman, and Irina E.Calin-Jageman. 2026. “Transcriptional Changes Fade Prior toLong-Term Memory for Sensitization of the *Aplysia*Siphon-Withdrawal Reflex.” *Eneuro*, March 9,ENEURO.0477–25.2026. <https://doi.org/10.1523/ENEURO.0477-25.2026>.
+
+[@rosiles2026a]
+
+It was a *long* road for this project… we started it in 2016! But with Covid and lots of other disruptions it took a long while to all the way to publication. Time for some well-aged champagne.
+
+The wait has been worth it in part because this project is really interesting. We have previously shown that forming a new long-term sensitization produces remarkable changes in gene expression within 1 day of training, with clear up- and down-regulation of almost 1200 distinct transcripts (that’s nearly 5% of all the gene models in the *Aplysia* genome). In this project, we tracked these genes to 5 days after training, a time point where the memory is partly, but not fully forgotten. To our surprise, we found that only 4 of the transcripts regulated 1 day after training were still regulated 5 days after training: 99% were no longer significantly regulated. This wasn’t due to low power: we used N = 16 paired samples and we were even able to show that 99% of transcripts showed a statistically-significant decline in regulation from day 1 to day 5. This wasn’t just about forgetting — we found the same result even when isolating to the 8 samples from animals that had shown the least forgetting. No, our results show that some aspect of the initial transcriptional response to learning is greatly modified/attenuated over time, even while the memory remains expressed! This could mean the locus of storage changes (gene expression changes continue, but in different neurons than at first), that it is refined (only a few neurons sustain the gene expression changes), or perhaps that it is offset (whatever changes that occur in memory-storing neurons are then offset by non-storing neurons to keep overall transcription as it was before)… all exciting possibilities to explore!
+
+This paper marks the 12th paper from the SlugLab.. a nice dozen of papers since our first successful project in 2012. That’s pretty incredible for our student-powered lab! For anyone wanting the boxed set, here’s our current complete bibliography:
+
+Bonnick, Kristine, Karla Bayas, Dmitry Belchenko, et al. “Transcriptional Changes Following Long-Term Sensitization Training and In Vivo Serotonin Exposure in *Aplysia* Californica.” *PLoS ONE* 7, no. 10 (2012): e47378. <https://doi.org/10.1371/journal.pone.0047378>.
+
+Calin-Jageman, Robert J., Bryan Gonzalez Delgadillo, Elise Gamino, et al. “Evidence of Active-Forgetting Mechanisms? Blocking Arachidonic Acid Release May Slow Forgetting of Sensitization in Aplysia.” Research Article: New Research. *eNeuro* 11, no. 4 (2024). <https://doi.org/10.1523/ENEURO.0516-23.2024>.
+
+Calin-Jageman, Robert J., Theresa Wilsterman, and Irina E. Calin-Jageman. “Transcriptional Regulation Underlying Long-Term Sensitization in Aplysia.” In *Oxford Research Encyclopedia of Neuroscience*. 2024. <https://doi.org/10.1093/acrefore/9780190264086.013.499>.
+
+Conte, Catherine, Samantha Herdegen, Saman Kamal, et al. “Transcriptional Correlates of Memory Maintenance Following Long-Term Sensitization of *Aplysia Californica*.” *Learning & Memory* 24, no. 10 (2017): 502–15. <https://doi.org/10.1101/lm.045450.117>.
+
+Cyriac, Ashly, Geraldine Holmes, Jamie Lass, Dmitry Belchenko, Robert J. Calin-Jageman, and Irina E. Calin-Jageman. “An *Aplysia* Egr Homolog Is Rapidly and Persistently Regulated by Long-Term Sensitization Training.” *Neurobiology of Learning and Memory* 102 (May 2013): 43–51. <https://doi.org/10.1016/j.nlm.2013.03.008>.
+
+Herdegen, Samantha, Catherine Conte, Saman Kamal, Robert J. Calin-Jageman, and Irina E. Calin-Jageman. “Immediate and Persistent Transcriptional Correlates of Long-Term Sensitization Training at Different Cns Loci in *Aplysia Californica*.” *PLoS ONE* 9, no. 12 (2014): e114481. <https://doi.org/10.1371/journal.pone.0114481>.
+
+Herdegen, Samantha, Geraldine Holmes, Ashly Cyriac, Irina E. Calin-Jageman, and Robert J. Calin-Jageman. “Characterization of the Rapid Transcriptional Response to Long-Term Sensitization Training in *Aplysia Californica*.” *Neurobiology of Learning and Memory* 116 (December 2014): 27–35. <https://doi.org/10.1016/j.nlm.2014.07.009>.
+
+Holmes, Geraldine, Samantha Herdegen, Jonathan Schuon, et al. “Transcriptional Analysis of a Whole-Body Form of Long-Term Habituation in Aplysia Californica.” *Learning & Memory* 22, no. 1 (2014): 11–23. <https://doi.org/10.1101/lm.036970.114>.
+
+Patel, Ushma, Leticia Perez, Steven Farrell, et al. “Transcriptional Changes before and after Forgetting of a Long-Term Sensitization Memory in *Aplysia Californica*.” *Neurobiology of Learning and Memory* 155 (November 2018): 474–85. <https://doi.org/10.1016/j.nlm.2018.09.007>.
+
+Perez, Leticia, Ushma Patel, Marissa Rivota, Irina E. Calin-Jageman, and Robert J. Calin-Jageman. “Savings Memory Is Accompanied by Transcriptional Changes That Persist beyond the Decay of Recall.” *Learning & Memory* 25, no. 1 (2018): 45–48. <https://doi.org/10.1101/lm.046250.117>.
+
+Rosiles, Tania, Melissa Nguyen, Robert J. Calin-Jageman, and Irina E. Calin-Jageman. “Transcriptional Changes Fade Prior to Long-Term Memory for Sensitization of the *Aplysia* Siphon-Withdrawal Reflex.” *Eneuro*, March 9, 2026, ENEURO.0477-25.2026. <https://doi.org/10.1523/ENEURO.0477-25.2026>.
+
+Rosiles, Tania, Melissa Nguyen, Monica Duron, et al. “Registered Report: Transcriptional Analysis of Savings Memory Suggests Forgetting Is Due to Retrieval Failure.” *Eneuro* 7, no. 6 (2020): ENEURO.0313-19.2020. <https://doi.org/10.1523/ENEURO.0313-19.2020>.

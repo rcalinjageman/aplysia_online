@@ -1,0 +1,26 @@
+---
+title: Cartoon network
+page-layout: full
+title-block-banner: false
+bibliography: references.bib
+---
+
+Neuroscience seeks to understand the neural basis of behavior. Most of the progress we’ve made, though, is either cellular/molecular or systems/anatomical. What still remains somewhat mysterious is how these levels connect.  We know that the answer is neural circuits–sets of connected neurons which work together to generate behaviors with feedback from the environment.  It’s hard to get a sense, though, of how this might work.  How, exactly, do neural circuits generate behaviors?  How could *you* be nothing but a pack of neurons?
+
+I’ve been searching for a long time for a good way to help my students explore these questions.  I could never quite find an activity that felt completely satisfactory, so I decided to write my own. I’m pleased to present **Cartoon Network**, a fun, simple neural network builder for students of nearly all ages.  **Cartoon Network** focuses on building simple neural networks, not on the complexities of individual neurons (like NEURON).  On the other hand, the neurons are more realistic than simple integrate-and-fire, and the focus is on exploring circuits by creating them, not by instantiating integrate-and-fire networks with already-defined architectures.  In other words, I think **Cartoon Network** hits the sweet spot where you can quickly build simple networks and explore the complex behaviors that emerge.  A particularly useful feature is the ability to integrate with the [Finch robot from BirdBrain Robotics](http://www.birdbraintechnologies.com/). With a Finch connected, you can design your own brain to control the robot–creating sensory neurons that activate based on the Finch’s sensors (light, temperature, and touch) and motor neurons that control the Finch’s outputs (lights, sound, and wheels).
+
+To try it out:
+
+- If you have Java installed on your computer, click [here](https://github.com/rcalinjageman/cartoon_network/raw/master/cartoon_network.jar) to download the jar file, which you can then run.
+
+- You can also try out the sim right from your browser via the Greenfoot website (though it can be a pain to get browsers to do this nowadays, due to security issues).  The project page is here: <http://www.greenfoot.org/scenarios/19282>. You’ll need to have a browser that still allows Java, the most recent version of Java installed, and you’ll need to add http://www.greenfoot.org to your list of allowed sources in your Java security settings…. not really worth the trouble.
+
+- You can download the complete greenfoot project to tinker with for yourself.  You can check it out via GitHub [here](https://github.com/rcalinjageman/cartoon_network), or download it from the Greenfoot community here.
+
+- I’ve also posted the version-controlled source code to GitHub.
+
+Here are two papers providing more detail:
+
+[@calin-jageman2017]
+
+[@robertj.calin-jageman2018]

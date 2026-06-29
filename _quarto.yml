@@ -1,0 +1,75 @@
+project:
+  type: website
+  output-dir: docs
+  
+highlight-style: a11y
+
+website:
+  title: "The DU Sluglab"
+  image: "images/logo.png"
+  site-url: https://www.aplysia.online
+  page-navigation: true
+  bread-crumbs: true
+  favicon: images/logo.png
+  search:
+    show-item-context: true
+    type: overlay
+  page-footer:
+    left: |
+      This lab supported by NIH grants R15-MH107892-01, 02, and 03
+      [![](/images/nih.png){fig-alt="NIH" width=65px .light-content}](https://www.nih.gov/)
+    center:
+      - text: "About"
+        href: about.qmd
+      - text: "Dominican University"
+        href: https://www.dom.edu
+    right:
+      - icon: bluesky
+        href: https://bsky.app/profile/thenewstats.bsky.social
+        aria-label: SlugLab Bluesky
+      - icon: github
+        href: https://github.com/rcalinjageman
+        aria-label: Sluglab GitHub
+      - icon: rss
+        href: https://www.aplysia.online/blog/index.xml
+        aria-label: Blog RSS
+  navbar:
+    background: light
+    logo: /images/logo.png
+    title: false
+    collapse-below: lg
+    search: true
+    left:
+      - about.qmd
+      - text: People
+        href: people.qmd
+      - cartoon-network.qmd
+      - gallery.qmd
+      - blog.qmd
+    tools:
+      - icon: github
+        href: https://github.com/rcalinjageman
+      - icon: bluesky
+        href: https://bsky.app/profile/thenewstats.bsky.social
+  sidebar:
+    style: "floating"
+    contents:
+    - text: Blast
+      href: https://blast.aplysia.online
+    - text: Genome Browswer
+      href: https://jbrowse.aplysia.online
+format:
+  html:
+    link-external-newwindow: true
+    respect-user-color-scheme: true
+    toc: true
+    theme:
+      light: [cosmo, theme.scss]
+      dark: [cosmo, theme-dark.scss]
+    code-copy: true
+    code-overflow: wrap
+    css: [styles.css, include/webex.css]
+    include-after-body: include/webex.js
+
+editor: visual
+
