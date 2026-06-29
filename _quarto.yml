@@ -58,6 +58,8 @@ website:
       href: https://blast.aplysia.online
     - text: Genome Browswer
       href: https://jbrowse.aplysia.online
+    - text: Downloads
+      href: rawreads.qmd
 format:
   html:
     link-external-newwindow: true
