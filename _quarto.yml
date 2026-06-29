@@ -16,8 +16,8 @@ website:
     type: overlay
   page-footer:
     left: |
-      This lab supported by NIH grants R15-MH107892-01, 02, and 03
       [![](/images/nih.png){fig-alt="NIH" width=65px .light-content}](https://www.nih.gov/)
+      Work from the Slug Lab has been supported by NIH grants R15-MH107892-01, 02, and 03.
     center:
       - text: "About"
         href: about.qmd
