@@ -1,0 +1,525 @@
+---
+title: "Annotation Processing"
+title-block-banner: false
+---
+
+This page describes how we processed annotation files for the *Aplsysia* genome assembly.
+
+# Liftoff
+
+## Docker compose file
+
+We pulled a container for liftoff with
+
+``` yaml
+services:
+    liftoff:
+        image: staphb/liftoff:latest
+        stdin_open: true
+        tty: true
+        command: /bin/sh
+        volumes:
+            - /home/rcalinjageman:/mnt/rcalinjageman
+```
+
+Which at the time of this writing pulls Liftoff v1.6.3, the most recent release of Liftoff (released February 2022).
+
+We spun up the container and shelled into it with:
+
+``` bash
+# start container
+docker compose up -d
+
+# shell in
+docker compose exec liftoff bash
+```
+
+We downloaded annotation files from NCBI and Ensembl and then lifted them to the new assembly using default values:
+
+``` bash
+# For NCBI annotation
+/opt/conda/bin/liftoff -a 0.80 -s 0.80 -p 8 -exclude_partial -o apcal_3_0_lifted.gff3 -u apcal_3_0_unmapped.txt -g apcal_3_0_genomic.gff domcal_with_mitochondrial.fna apcal_3_0_genomic.fna
+
+# And for ensemble
+/opt/conda/bin/liftoff -a 0.80 -s 0.80 -p 8 -exclude_partial -o ensemble_lifted.gff3 -u ensemble_unmapped.txt -g ensembl_genes.gff3 domcal_with_mitochondrial.fna apcal_3_0_genomic.fna
+```
+
+## GffCompare
+
+We next pulled a container for Gffcompare:
+
+``` yaml
+services:
+    gffcompare:
+        image: quay.io/biocontainers/gffcompare:0.12.10--h9948957_0
+        stdin_open: true
+        tty: true
+        command: /bin/sh
+        volumes:
+            - /home/rcalinjageman:/mnt/rcalinjageman
+            - /home/rcalinjageman/docker_stuff/gffcompare:/gffcompare
+```
+
+Spun up the container, shelled in, and queried the de novo annotation against both the NCBI and Ensembl annotations:
+
+``` bash
+# start container
+docker compose up -d
+
+# shell in
+docker compose exec gffcompare /bin/bash
+```
+
+``` bash
+# Compare to apcal_3_0
+gffcompare -r apcal_3_0_lifted.gff3 -o apcal_3_0_to_braker braker-loose.utrs.ipr.sorted.gff3 
+
+# Compare to ensemble
+gffcompare -r ensemble_lifted.gff3 -o ensemble_to_braker braker-loose.utrs.ipr.sorted.gff3 
+```
+
+### Cross-Referencing Annotations
+
+We then used R 4.4.1 and the rtracklayer package (1.66.0) to add the cross-references found by Gffcompare into the annotation files (TBD: Probably post this script to a repo rather than just text):
+
+``` R
+# Script with some Gemini help to update aplysia genome annotations
+# With cross references
+
+# 0. Setup
+library(rtracklayer)
+
+gff_codes <- c(
+  "=" = "Exact match",
+  "c" = "Contained in reference",
+  "k" = "Containtment in reference (reverse containmnet)",
+  "m" = "Retained intron(s), all introns matched or retained",
+  "n" = "Retained intron(s), not all introns matched/covered",
+  "j" = "Multi-exon with at least one junction match",
+  "e" = "Single exon overlapping intron",
+  "y" = "Contains reference within its intron(s)",
+  "i" = "Fully intronic",
+  "o" = "Exonic overlap",
+  "p" = "Polymerase run-on",
+  "r" = "Repeat",
+  "u" = "Intergenic (unknown)",
+  "x" = "Anti-sense exonic overlap",
+  "s" = "Anti-sense intronic overlap",
+  "." = "Unclassified",
+  "-" = "Unclassified"
+)
+gff_codes <- gsub(" ", "_", gff_codes)
+
+
+# 1. Load the new annotation, the gffcompare results, and additional ncbi and ensembl details
+new_gff <- import("braker-loose.utrs.ipr.sorted.gff3")
+tmap <- read.delim("apcal_3_0_to_braker.braker-loose.utrs.ipr.sorted.gff3.tmap", header=TRUE, stringsAsFactors=FALSE)
+emap <- read.delim("ensemble_to_braker.braker-loose.utrs.ipr.sorted.gff3.tmap", header = TRUE, stringsAsFactors = FALSE)
+ncbi_table <- read.delim("GCF_000002075.1_AplCal3.0_feature_table.txt", header=TRUE, stringsAsFactors=FALSE)
+ensembl_gff <- import("ensemble_lifted.gff3")
+ncbi_gff <- import("liftoff.sorted.gff")
+
+# Make character so we can grab this column
+ncbi_gff$Note <- as.character(ncbi_gff$Note)
+
+# Store code meanings
+tmap$code_meaning <- gff_codes[tmap$class_code]
+emap$code_meaning <- gff_codes[emap$class_code]
+
+# NCBI
+# Get matches from new annotation to gffcompare results
+match_gene_ids <- match(new_gff$ID, tmap$qry_gene_id)
+match_rna_ids <- match(new_gff$ID, tmap$qry_id)
+
+# Store match code and explanation in gff
+new_gff$ncbi_match_code <- tmap$class_code[match_gene_ids]
+new_gff$ncbi_match_code_meaning <- tmap$code_meaning[match_gene_ids]
+
+# Store in the gff the ncbi gene and transcript ids identified by gffcompare
+new_gff$ncbi_genes <- tmap$ref_gene_id[match_gene_ids]
+new_gff$ncbi_rnas <- tmap$ref_id[match_rna_ids]
+
+# Now get indexes from new gff to ncbi gff
+match_ncbi_genes <- match(new_gff$ncbi_genes, ncbi_gff$ID)
+match_ncbi_rnas <- match(new_gff$ncbi_rnas, ncbi_gff$ID)
+
+# Now store attributes from ncbi genes into the new gff
+new_gff$ncbi_gene <- ncbi_gff$gene[match_ncbi_genes]
+new_gff$ncbi_gene_Name <- ncbi_gff$Name[match_ncbi_genes]
+new_gff$ncbi_gene_description <- ncbi_gff$description[match_ncbi_genes]
+new_gff$ncbi_gene_biotype <- ncbi_gff$gene_biotype[match_ncbi_genes]
+
+# Now store attributes from ncbi transcripts ino the new gff
+new_gff$ncbi_transcript_Name <- ncbi_gff$Name[match_ncbi_rnas]
+new_gff$ncbi_transcript_Note <- ncbi_gff$Note[match_ncbi_rnas]
+new_gff$ncbi_transcript_inference <- ncbi_gff$inference[match_ncbi_rnas]
+new_gff$ncbi_transcript_product <- ncbi_gff$product[match_ncbi_rnas]
+new_gff$ncbi_transcript_id <- ncbi_gff$transcript_id[match_ncbi_rnas]
+
+# Now the same steps but for ensembl
+# Store match code and explanation in gff
+match_egene_ids <- match(new_gff$ID, emap$qry_gene_id)
+match_erna_ids <- match(new_gff$ID, emap$qry_id)
+
+# Get matches from new annotation to gffcompare results
+new_gff$ensembl_match_code <- emap$class_code[match_egene_ids]
+new_gff$ensembl_match_code_meaning <- emap$code_meaning[match_egene_ids]
+
+# Store in the gff the ensembl gene and transcript ids identified by gffcompare
+new_gff$ensembl_genes <- emap$ref_gene_id[match_egene_ids]
+new_gff$ensembl_rnas <- emap$ref_id[match_erna_ids]
+
+# Now get indexes from new gff to ensembl gff
+match_ensembl_genes <- match(new_gff$ensembl_genes, ensembl_gff$ID)
+match_ensembl_rnas <- match(new_gff$ensembl_rnas, ensembl_gff$ID)
+
+# Now store attributes from ensembl genes into the new gff
+new_gff$ensembl_gene <- ensembl_gff$gene[match_ensembl_genes]
+new_gff$ensembl_gene_Name <- ensembl_gff$Name[match_ensembl_genes]
+new_gff$ensembl_gene_description <- ensembl_gff$description[match_ensembl_genes]
+new_gff$ensembl_gene_biotype <- ensembl_gff$gene_biotype[match_ensembl_genes]
+new_gff$ensembl_gene_id <- ensembl_gff$gene_id[match_ensembl_genes]
+
+# Now store attributes from ncbi transcripts ino the new gff
+new_gff$ensembl_transcript_tag <- ensembl_gff$tag[match_ensembl_rnas]
+new_gff$ensembl_transcript_biotype <- ensembl_gff$biotype[match_ensembl_rnas]
+new_gff$ensembl_transcript_id <- ensembl_gff$transcript_id[match_ensembl_rnas]
+
+
+# Bring some of this into global attributes for our annotation
+# Bring NCBI's product description into each transcript
+new_gff$product <- NA
+new_gff[! is.na(new_gff$ncbi_transcript_product), ]$product <- paste("Match NCBI", new_gff[! is.na(new_gff$ncbi_transcript_product), ]$ncbi_transcript_product, sep = " ")
+
+# Bring NCBI's match and description into description for each gene
+# First, get NCBI descriptions
+new_gff$Description <- NA
+new_gff[! is.na(new_gff$ncbi_gene_description), ]$Description <- paste("Match NCBI", new_gff[! is.na(new_gff$ncbi_gene_description), ]$ncbi_match_code_meaning, new_gff[! is.na(new_gff$ncbi_gene_description), ]$ncbi_gene_description, sep = " ")
+
+# Next Ensembl
+new_gff$EDescription <- NA
+new_gff[! is.na(new_gff$ensembl_gene_description), ]$EDescription <- paste("Match Ensembl", new_gff[! is.na(new_gff$ensembl_gene_description), ]$ensembl_match_code_meaning, new_gff[! is.na(new_gff$ensembl_gene_description), ]$ensembl_gene_description, sep = " ")
+
+# Merge together when we have both
+new_gff[! (is.na(new_gff$Description) | is.na(new_gff$EDescription) ) ]$Description <- paste(new_gff[! (is.na(new_gff$Description) | is.na(new_gff$EDescription) ) ]$Description, new_gff[! (is.na(new_gff$Description) | is.na(new_gff$EDescription) ) ]$EDescription)
+
+# Pull in Ensembl when no NCBI
+new_gff[is.na(new_gff$Description) & !is.na(new_gff$EDescription)]$Description <- new_gff[is.na(new_gff$Description) & !is.na(new_gff$EDescription)]$EDescription
+
+# Get rid of temporary column
+new_gff$EDescription <- NULL
+
+
+# Clean up empty attributes
+new_gff$ncbi_genes <- gsub("-", NA, new_gff$ncbi_genes)
+new_gff$ncbi_rnas <- gsub("-", NA, new_gff$ncbi_rnas)
+new_gff$ensembl_genes <- gsub("-", NA, new_gff$ncbi_genes)
+new_gff$ensembl_rnas <- gsub("-", NA, new_gff$ncbi_rnas)
+
+
+# 3. Export
+export(new_gff, "domucal_de_novo_2025_crossreferenced.gff3", format="gff3")
+
+
+# Now ensembl
+
+# Fix description
+ensembl_gff$Description <- ensembl_gff$description
+ensembl_gff$description <- NULL
+
+# Pull matches to new annotation
+em_transcripts <- match(ensembl_gff$ID, emap$ref_id)
+em_genes <- match(ensembl_gff$ID, emap$ref_gene_id)
+
+ensembl_gff$match_domucal_transcript <- emap$qry_id[em_transcripts]
+ensembl_gff$match_domucal_gene <- emap$qry_gene_id[em_genes]
+
+# Then save
+export(ensembl_gff, "ensembl_2024_11_lifted_crossreferenced.gff3", format="gff3")
+
+
+# And ncbi
+# Pull matches to new annotation
+ncbi_transcripts <- match(ncbi_gff$ID, tmap$ref_id)
+ncbi_genes <- match(ncbi_gff$ID, tmap$ref_gene_id)
+
+ncbi_gff$match_domucal_transcript <- tmap$qry_id[ncbi_transcripts]
+ncbi_gff$match_domucal_gene <- tmap$qry_gene_id[ncbi_genes]
+
+export(ncbi_gff, "ncbi_apcal102_lifted_crossreferenced.gff3", format="gff3")
+```
+
+### Posting to JBrowse
+
+#### Sort, Zip, and Index
+
+To post to JBrowse, each annotation file was sorted, zipped, and then indexed with this helper script
+
+``` bash
+# process_track.sh
+#!/bin/bash
+
+# Exit immediately if any command fails
+set -e
+
+INPUT_GFF=$1
+TRACK_ID=$2
+
+# Check if the user provided the required arguments
+if [ -z "$INPUT_GFF" ] || [ -z "$TRACK_ID" ]; then
+    echo "Usage: ./update_track.sh <input.gff3> <track_id>"
+    echo "Example: ./update_track.sh aplysia_californica_annotation.gff3 my_annotation_track"
+    exit 1
+fi
+
+SORTED_GFF="${INPUT_GFF%.gff3}_sorted.gff3"
+COMPRESSED_GFF="${SORTED_GFF}.gz"
+
+echo "Step 1: Sorting $INPUT_GFF..."
+# Preserves the header lines (starting with #) and sorts the data lines by sequence and start coordinate
+(grep ^"#" "$INPUT_GFF"; grep -v ^"#" "$INPUT_GFF" | sort -k1,1 -k4,4n) > "$SORTED_GFF"
+
+echo "Step 2: Compressing with bgzip..."
+# The -f flag forces an overwrite if a compressed file already exists
+bgzip -f "$SORTED_GFF"
+
+echo "Step 3: Indexing with tabix..."
+tabix -p gff "$COMPRESSED_GFF"
+
+echo "Success! The track data and search index have been updated."
+echo "Note: Perform a hard refresh in your browser to clear any cached .ixx files."
+```
+
+And then
+
+``` bash
+./process_track.sh domucal_de_novo_2025_crossreferenced.gff3 domucal_de_novo_2025
+
+./process_track.sh ncbi_apcal102_lifted_crossreferenced.gff3 ncbi_apcal102_lifted_crossreferenced_sorted.gff3
+
+./process_track.sh ensembl_2024_11_lifted_crossreferenced.gff3 ensembl_2024_11
+```
+
+#### Adding and Indexing Tracks
+
+Tracks were then added to JBrowse
+
+``` bash
+jbrowse add-track ./anno/domucal_de_novo_2025_crossreferenced_sorted.gff3.gz --trackId domucal_de_novo_2025 --load inPlace
+
+ jbrowse add-track ./anno/ncbi_apcal102_lifted_crossreferenced_sorted.gff3.gz --trackId ncbi_apcal102_lifted --load inPlace   
+ 
+ jbrowse add-track ./anno/ensembl_2024_11_lifted_crossreferenced_sorted.gff3.gz --trackId ensembl_2024_11_lifted --load inPlace  
+```
+
+Note that jbrowse add-track has difficulty with directories, so config.json had to be manually edited for each track to correct the paths to the annotation tracks.
+
+Tracks were then indexed with:
+
+``` bash
+jbrowse text-index --force --attributes=ID,Name,Description,product
+```
+
+#### Linkout Plugin
+
+To provide links from track attributes to relevant databases, we created a JBrowse Plugin (with help from Gemini):
+
+``` javascript
+export default class LinkoutPlugin {
+  name = 'LinkoutPlugin'
+  version = '1.0.0'
+  install() {}
+  configure(pluginManager) {
+    // Added a third parameter 'defaultDb' to handle attributes that lack prefixes
+    pluginManager.jexl.addFunction('formatLinks', (feature, attrName, defaultDb = null) => {
+
+      const val = typeof feature.get === 'function' ? feature.get(attrName) : feature[attrName];
+      if (!val) return val;
+
+      const termList = Array.isArray(val) ? val : val.toString().split(',');
+
+      return termList.map(term => {
+        const cleanTerm = term.trim();
+        let prefix, id;
+
+        // Split on the first colon if it exists
+        const colonIndex = cleanTerm.indexOf(':');
+
+        if (colonIndex !== -1) {
+          // It has a colon (e.g., "PFAM:PF00001")
+          prefix = cleanTerm.substring(0, colonIndex).toUpperCase();
+          id = cleanTerm.substring(colonIndex + 1);
+        } else if (defaultDb) {
+          // No colon, but a default database was passed (e.g., an Ensembl ID)
+          prefix = defaultDb.toUpperCase();
+          id = cleanTerm;
+        } else {
+          // No colon and no default database; return as standard unlinked text
+          return cleanTerm;
+        }
+
+        const ebi = 'https://www.ebi.ac.uk/interpro/entry/';
+
+        switch(prefix) {
+          case 'GO':          return `<a href="https://amigo.geneontology.org/amigo/term/${cleanTerm}" target="_blank">${cleanTerm}</a>`;
+          case 'BOB':         return `<a href="https://www.ncbi.nlm.nih.gov/nuccore/?term=${cleanTerm}" target="_blank">${cleanTerm}</a>`;
+          case 'ENSEMBLG':    return `<a href="https://beta.ensembl.org/feature-explorer/264cff85-f586-4e0f-afd3-29ea13f42ef2/gene:${cleanTerm}" target="_blank>
+          case 'ENSEMBLT':    return `<a href="https://beta.ensembl.org/genome-browser/264cff85-f586-4e0f-afd3-29ea13f42ef2?focus=transcript:${cleanTerm}" targ>
+          case 'INTERPRO':    return `<a href="${ebi}InterPro/${id}" target="_blank">${cleanTerm}</a>`;
+          case 'PFAM':
+          case 'PF':          return `<a href="${ebi}pfam/${id}" target="_blank">${cleanTerm}</a>`;
+          case 'CDD':         return `<a href="${ebi}cdd/${id}" target="_blank">${cleanTerm}</a>`;
+          case 'GENE3D':      return `<a href="${ebi}cathgene3d/${id}" target="_blank">${cleanTerm}</a>`;
+          case 'PANTHER':     return `<a href="${ebi}panther/${id}" target="_blank">${cleanTerm}</a>`;
+          case 'PROSITE':     return `<a href="https://www.uniprot.org/uniprotkb?query=${id}" target="_blank">${cleanTerm}</a>`;
+          case 'SMART':       return `<a href="${ebi}smart/${id}" target="_blank">${cleanTerm}</a>`;
+          case 'SUPERFAMILY':
+          case 'SSF':         return `<a href="${ebi}ssf/${id}" target="_blank">${cleanTerm}</a>`;
+          case 'TRANSCRIPT':  return `<a href="https://rapid.ensembl.org/id/${id}" target="_blank">${cleanTerm}</a>`;
+          case 'NCBI':        return `<a href="https://www.ncbi.nlm.nih.gov/nuccore/?term=${id}" target="_blank">${cleanTerm}</a>`;
+          case 'NCBI_GENE':   return `<a href="https://www.ncbi.nlm.nih.gov/nuccore/?term=${id}" target="_blank">${cleanTerm}</a>`;
+          default:            return cleanTerm;
+        }
+      }).join(', ');
+    });
+  }
+}
+```
+
+And then updated the track feature handling in config.json:
+
+``` javascript
+{
+  "assemblies": [
+    {
+      "name": "GCA_041379995.1_DOMU_ApCal_1.1_genomic.fna",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "GCA_041379995.1_DOMU_ApCal_1.1_genomic.fna-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "GCA_041379995.1_DOMU_ApCal_1.1_genomic.fna",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "GCA_041379995.1_DOMU_ApCal_1.1_genomic.fna.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    }
+  ],
+  "configuration": {},
+  "connections": [],
+  "defaultSession": {
+    "name": "DomU Aplysia Genome Assembly"
+  },
+  "plugins": [
+    {
+      "name": "LinkoutPlugin",
+      "esmLoc": {
+        "uri": "linkoutPlugin.js"
+      }
+    }
+  ],
+  "tracks": [
+    {
+      "type": "FeatureTrack",
+      "trackId": "domucal_de_novo_2025",
+      "name": "DomUCal de novo annotation 2025",
+      "formatDetails": {
+        "feature": "jexl: {ensembl_transcript_id: formatLinks(feature, 'ensembl_transcript_id', 'ENSEMBLT'), ensembl_gene_id: formatLinks(feature, 'ensembl_gen>
+      },
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "anno/domucal_de_novo_2025_crossreferenced_sorted.gff3.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "anno/domucal_de_novo_2025_crossreferenced_sorted.gff3.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "assemblyNames": [
+        "GCA_041379995.1_DOMU_ApCal_1.1_genomic.fna"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "ncbi_apcal102_lifted",
+      "name": "NCBI ApCal02 Lifted",
+      "formatDetails": {
+        "feature": "jexl: {gene: formatLinks(feature, 'gene', 'BOB'), transcript_id: formatLinks(feature, 'transcript_id', 'BOB') }"
+      },
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "anno/ncbi_apcal102_lifted_crossreferenced_sorted.gff3.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "anno/ncbi_apcal102_lifted_crossreferenced_sorted.gff3.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "assemblyNames": [
+        "GCA_041379995.1_DOMU_ApCal_1.1_genomic.fna"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "ensembl_2024_11_lifted",
+      "name": "Ensembl 2024_01 Lifted",
+      "formatDetails": {
+        "feature": "jexl: {transcript_id: formatLinks(feature, 'transcript_id', 'ENSEMBLT'), gene_id: formatLinks(feature, 'gene_id', 'ENSEMBLG') }"
+      },
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "anno/ensembl_2024_11_lifted_crossreferenced_sorted.gff3.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "anno/ensembl_2024_11_lifted_crossreferenced_sorted.gff3.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "assemblyNames": [
+        "GCA_041379995.1_DOMU_ApCal_1.1_genomic.fna"
+      ]
+    }
+  ],
+  "aggregateTextSearchAdapters": [
+    {
+      "type": "TrixTextSearchAdapter",
+      "textSearchAdapterId": "GCA_041379995.1_DOMU_ApCal_1.1_genomic.fna-index",
+      "ixFilePath": {
+        "uri": "trix/GCA_041379995.1_DOMU_ApCal_1.1_genomic.fna.ix",
+        "locationType": "UriLocation"
+      },
+      "ixxFilePath": {
+        "uri": "trix/GCA_041379995.1_DOMU_ApCal_1.1_genomic.fna.ixx",
+        "locationType": "UriLocation"
+      },
+      "metaFilePath": {
+        "uri": "trix/GCA_041379995.1_DOMU_ApCal_1.1_genomic.fna_meta.json",
+        "locationType": "UriLocation"
+      },
+      "assemblyNames": [
+        "GCA_041379995.1_DOMU_ApCal_1.1_genomic.fna"
+      ]
+    }
+  ]
+}
+```

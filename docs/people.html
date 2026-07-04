@@ -23,7 +23,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -75,6 +94,8 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<link href="https://cdn.jsdelivr.net/gh/tofsjonas/sortable@latest/sortable.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/tofsjonas/sortable@latest/sortable.min.js"></script>
 
 
 <link rel="stylesheet" href="styles.css">
@@ -334,6 +355,23 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Downloads</span></a>
   </div>
 </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#" role="navigation" aria-expanded="true">
+ <span class="menu-text">Workflows</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./workflows/annotation_processing.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Annotation Processing</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
     </ul>
     </div>
 </nav>
@@ -366,748 +404,436 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p><strong>Members, Past and Present</strong></p>
-<table class="caption-top table">
+<table class="sortable caption-top table">
+<caption>Table of Slug Lab Members</caption>
+<thead>
+<tr class="header">
+<th><strong>Semester</strong></th>
+<th><strong>Student</strong></th>
+<th><strong>After Graduation</strong></th>
+<th><strong>Link</strong></th>
+<th><strong>Papers</strong></th>
+</tr>
+</thead>
 <tbody>
-<tr class="odd">
-<td><strong>Semester</strong></td>
-<td><strong>Student</strong></td>
-<td><strong>Current</strong></td>
-<td><strong>After Graduation</strong></td>
-<td><strong>Link</strong></td>
-</tr>
-<tr class="even">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
 <tr class="odd">
 <td>2010 Fall – 2011 Spring</td>
 <td>Kristine Bonnick</td>
-<td></td>
 <td>Med School, Loma Linda University</td>
 <td><a href="https://lluh.org/provider/bonnick-kristine">Kristine Bonnick</a></td>
+<td><span class="citation" data-cites="bonnick2012">(<a href="#ref-bonnick2012" role="doc-biblioref">Bonnick et al. 2012</a>)</span></td>
 </tr>
 <tr class="even">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
 <td>2010 Fall – 2011 Spring</td>
 <td>Patrycja Oleksiak</td>
-<td></td>
 <td>MA Ultrasound Sonography, Northwestern University</td>
-<td></td>
-</tr>
-<tr class="even">
-<td></td>
-<td></td>
-<td></td>
 <td></td>
 <td></td>
 </tr>
 <tr class="odd">
 <td>2010 Fall – 2011 Spring</td>
 <td>Benora McBride</td>
-<td></td>
 <td>Pharmacy School, Notre Dame of Maryland University</td>
 <td><a href="https://npidb.org/doctors/pharmacy/pharmacist_183500000x/1962958272.aspx">Benora McBride</a></td>
+<td><span class="citation" data-cites="bonnick2012">(<a href="#ref-bonnick2012" role="doc-biblioref">Bonnick et al. 2012</a>)</span></td>
 </tr>
 <tr class="even">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
 <td>2010 Fall – 2011 Spring</td>
 <td>Nadine Nitisusanta</td>
-<td></td>
 <td>Dental School, University of Illinois at Chicago</td>
 <td><a href="https://familyorlandodentistry.com/">Nadine Nitisusanta</a></td>
-</tr>
-<tr class="even">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
 <td></td>
 </tr>
 <tr class="odd">
 <td>2010 Fall – 2011 Spring</td>
 <td>Laura Salazar</td>
-<td></td>
 <td>Masters in Clinical Psychology, Illinois Institute of Technology</td>
 <td><a href="https://www.linkedin.com/in/laura-salazar-11a98075/">Laura Salazar</a></td>
+<td></td>
 </tr>
 <tr class="even">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
 <td>2010 Fall – 2011 Spring</td>
 <td>Karolina Matel</td>
-<td></td>
 <td>R&amp;D Regulatory Affairs Associate Principal Scientist</td>
 <td><a href="https://www.linkedin.com/in/karolinamatel/">Karolina Matel</a></td>
-</tr>
-<tr class="even">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
 <td></td>
 </tr>
 <tr class="odd">
 <td>2011 Summer – 2012 Spring</td>
 <td>Karla Bayas</td>
-<td></td>
 <td>Law School, University of Illinois</td>
 <td><a href="https://www.linkedin.com/in/karlabayas/">Karla Bayas</a></td>
+<td><span class="citation" data-cites="bonnick2012">(<a href="#ref-bonnick2012" role="doc-biblioref">Bonnick et al. 2012</a>)</span></td>
 </tr>
 <tr class="even">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
 <td>2011 Summer – 2012 Spring</td>
 <td>Michael Dove</td>
-<td></td>
 <td>Med School, Thomas Jefferson University</td>
 <td><a href="https://atriumhealth.org/provider-profile/michael-dove-1770019812">Michael Dove</a></td>
-</tr>
-<tr class="even">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td><span class="citation" data-cites="bonnick2012">(<a href="#ref-bonnick2012" role="doc-biblioref">Bonnick et al. 2012</a>)</span></td>
 </tr>
 <tr class="odd">
 <td>2011 Summer – 2012 Spring</td>
 <td>Vanessa Mendiola</td>
-<td></td>
 <td>Masters in Education, Dominican University</td>
 <td><a href="https://www.linkedin.com/in/vanessa-mendiola-695b7566/">Vanessa Mendiola</a></td>
+<td></td>
 </tr>
 <tr class="even">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
 <td>2011 Summer – 2013 Summer</td>
 <td>Ashly Cyriac</td>
-<td></td>
 <td>Optometry School, Salus University</td>
 <td><a href="https://www.linkedin.com/in/ashly-c-7696051a5/">Ashly Cyriac</a></td>
-</tr>
-<tr class="even">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td><span class="citation" data-cites="bonnick2012 cyriac2013 herdegen2014a holmes2014">(<a href="#ref-bonnick2012" role="doc-biblioref">Bonnick et al. 2012</a>; <a href="#ref-cyriac2013" role="doc-biblioref">Cyriac et al. 2013</a>; <a href="#ref-herdegen2014a" role="doc-biblioref">Herdegen, Holmes, et al. 2014</a>; <a href="#ref-holmes2014" role="doc-biblioref">Holmes et al. 2014</a>)</span></td>
 </tr>
 <tr class="odd">
 <td>2012 Spring – 2013 Summer</td>
 <td>Jamie Lass</td>
-<td></td>
 <td>Masters in Nutrition and Wellness, Benedictine University</td>
-<td><a href="https://www.linkedin.com/in/jamie-sabel-a87a2420/">Jamie Sabel</a></td>
+<td>Jamie Lass</td>
+<td><span class="citation" data-cites="bonnick2012 cyriac2013 holmes2014">(<a href="#ref-bonnick2012" role="doc-biblioref">Bonnick et al. 2012</a>; <a href="#ref-cyriac2013" role="doc-biblioref">Cyriac et al. 2013</a>; <a href="#ref-holmes2014" role="doc-biblioref">Holmes et al. 2014</a>)</span></td>
 </tr>
 <tr class="even">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
 <td>2012 Spring – 2015 Spring</td>
 <td>Samantha Herdegen</td>
-<td></td>
 <td>Pharmacy, Midwestern University</td>
 <td><a href="https://www.linkedin.com/in/samantha-herdegen-a61237b9/">Samantha Herdegen</a></td>
-</tr>
-<tr class="even">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td><span class="citation" data-cites="herdegen2014 herdegen2014a holmes2014 conte2017">(<a href="#ref-herdegen2014" role="doc-biblioref">Herdegen, Conte, et al. 2014</a>; <a href="#ref-herdegen2014a" role="doc-biblioref">Herdegen, Holmes, et al. 2014</a>; <a href="#ref-holmes2014" role="doc-biblioref">Holmes et al. 2014</a>; <a href="#ref-conte2017" role="doc-biblioref">Conte et al. 2017</a>)</span></td>
 </tr>
 <tr class="odd">
 <td>2012 Spring – Summer</td>
 <td>Dmitry Belchenko</td>
-<td></td>
-<td>Med School, Touro University Nevada</td>
+<td>DO from Touro University. PGY-1 Intern - St John Macomb-Oakland Hospital</td>
 <td><a href="https://www.linkedin.com/in/dmitry-belchenko-149487125/">Dmitry Belchenko</a></td>
+<td><span class="citation" data-cites="bonnick2012 cyriac2013">(<a href="#ref-bonnick2012" role="doc-biblioref">Bonnick et al. 2012</a>; <a href="#ref-cyriac2013" role="doc-biblioref">Cyriac et al. 2013</a>)</span></td>
 </tr>
 <tr class="even">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
 <td>2012 Summer – 2013 Summer</td>
 <td>Geraldine Holmes</td>
-<td></td>
 <td>PhD in Evolutionary Biology, University of Victoria, Canada</td>
 <td></td>
-</tr>
-<tr class="even">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td><span class="citation" data-cites="cyriac2013 herdegen2014a holmes2014">(<a href="#ref-cyriac2013" role="doc-biblioref">Cyriac et al. 2013</a>; <a href="#ref-herdegen2014a" role="doc-biblioref">Herdegen, Holmes, et al. 2014</a>; <a href="#ref-holmes2014" role="doc-biblioref">Holmes et al. 2014</a>)</span></td>
 </tr>
 <tr class="odd">
 <td>2013 Summer – 2015 Spring</td>
 <td>Jonathan Schuon</td>
-<td></td>
 <td>Med School, University of Illinois</td>
 <td><a href="https://medicine.tulane.edu/departments/orthopaedics/medical-resident/jonathan-schuon-md">Jonathan Schuon</a></td>
+<td><span class="citation" data-cites="holmes2014">(<a href="#ref-holmes2014" role="doc-biblioref">Holmes et al. 2014</a>)</span></td>
 </tr>
 <tr class="even">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
 <td>2013 Summer – 2016 Spring</td>
 <td>Catherine Conte</td>
-<td></td>
 <td>Physical Therapy, Midwestern University</td>
 <td><a href="https://www.linkedin.com/in/catherineconte3/">Catherine Conte</a></td>
-</tr>
-<tr class="even">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td><span class="citation" data-cites="herdegen2014 holmes2014 conte2017">(<a href="#ref-herdegen2014" role="doc-biblioref">Herdegen, Conte, et al. 2014</a>; <a href="#ref-holmes2014" role="doc-biblioref">Holmes et al. 2014</a>; <a href="#ref-conte2017" role="doc-biblioref">Conte et al. 2017</a>)</span></td>
 </tr>
 <tr class="odd">
 <td>2013 Summer – 2016 Spring</td>
 <td>Saman Kamal</td>
-<td></td>
 <td>Med School, University of Texas Baylor</td>
 <td><a href="https://doctor.webmd.com/doctor/saman-kamal-8eb43dc8-c66d-4c2c-be82-a6b45de66b5a-overview">Saman Kamal</a></td>
+<td><span class="citation" data-cites="herdegen2014 conte2017">(<a href="#ref-herdegen2014" role="doc-biblioref">Herdegen, Conte, et al. 2014</a>; <a href="#ref-conte2017" role="doc-biblioref">Conte et al. 2017</a>)</span></td>
 </tr>
 <tr class="even">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
 <td>2014 Summer</td>
 <td>Gail Gutman</td>
-<td></td>
 <td>Med School, Tel Aviv University, Israel</td>
 <td><a href="https://www.healthgrades.com/physician/dr-gail-gutman-xynph5n">Gail Gutman</a></td>
-</tr>
-<tr class="even">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
 <td></td>
 </tr>
 <tr class="odd">
 <td>2015 Summer</td>
 <td>Jency Patel</td>
-<td></td>
 <td>Med School, St.&nbsp;Kitts</td>
 <td><a href="https://www.linkedin.com/in/patel-jency-80b6bb85/">Jency Patel</a>, <a href="https://www.linkedin.com/in/patel-jency-80b6bb85/">Link</a></td>
+<td><span class="citation" data-cites="conte2017">(<a href="#ref-conte2017" role="doc-biblioref">Conte et al. 2017</a>)</span></td>
 </tr>
 <tr class="even">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
 <td>2015 Summer – 2018 Spring</td>
 <td>Leticia Perez</td>
-<td></td>
 <td>Veterinary Medicine, University of Illinois</td>
 <td><a href="https://www.linkedin.com/in/leticiaperez25/">Leticia Perez</a></td>
-</tr>
-<tr class="even">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td><span class="citation" data-cites="conte2017 patel2018 perez2018">(<a href="#ref-conte2017" role="doc-biblioref">Conte et al. 2017</a>; <a href="#ref-patel2018" role="doc-biblioref">Patel et al. 2018</a>; <a href="#ref-perez2018" role="doc-biblioref">Perez et al. 2018</a>)</span></td>
 </tr>
 <tr class="odd">
 <td>2015 Summer – 2018 Spring</td>
 <td>Ushma Patel</td>
-<td></td>
 <td>MA in Biomedical Illustration, University of Illinois Chicago</td>
 <td><a href="https://www.linkedin.com/in/ushmap/">Ushma Patel</a></td>
+<td><span class="citation" data-cites="conte2017 patel2018 perez2018">(<a href="#ref-conte2017" role="doc-biblioref">Conte et al. 2017</a>; <a href="#ref-patel2018" role="doc-biblioref">Patel et al. 2018</a>; <a href="#ref-perez2018" role="doc-biblioref">Perez et al. 2018</a>)</span></td>
 </tr>
 <tr class="even">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
 <td>2016 Summer – 2017 Spring</td>
 <td>Marissa Rivota</td>
-<td></td>
 <td>Manufacturing Supervisor (DS)</td>
 <td><a href="https://www.linkedin.com/in/marissa-rivota-905b2a172/">Marissa Rivota</a></td>
-</tr>
-<tr class="even">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td><span class="citation" data-cites="conte2017 perez2018">(<a href="#ref-conte2017" role="doc-biblioref">Conte et al. 2017</a>; <a href="#ref-perez2018" role="doc-biblioref">Perez et al. 2018</a>)</span></td>
 </tr>
 <tr class="odd">
 <td>2016 Summer – 2018 Spring</td>
 <td>Steven Farrel</td>
-<td></td>
 <td>Lead Clinical Informatics Specialist/Scribe at Oak Street Health, Hammond</td>
 <td><a href="https://www.linkedin.com/in/steven-farrell-043590154/">Steven Farrell</a></td>
+<td><span class="citation" data-cites="patel2018">(<a href="#ref-patel2018" role="doc-biblioref">Patel et al. 2018</a>)</span></td>
 </tr>
 <tr class="even">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
 <td>2016 Summer – 2019 Summer</td>
 <td>Melissa Nguyen</td>
-<td></td>
 <td>Masters in Medical Sciences, Midwestern University</td>
 <td></td>
-</tr>
-<tr class="even">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td><span class="citation" data-cites="patel2018 rosiles2020 rosiles2026">(<a href="#ref-patel2018" role="doc-biblioref">Patel et al. 2018</a>; <a href="#ref-rosiles2020" role="doc-biblioref">Rosiles et al. 2020</a>, <a href="#ref-rosiles2026" role="doc-biblioref">2026</a>)</span></td>
 </tr>
 <tr class="odd">
 <td>2017 Summer</td>
 <td>Derek Steck</td>
-<td></td>
 <td>Medical School, University of Wisconsin</td>
 <td><a href="https://www.mcw.edu/departments/medicine/education/residency-program/residents/pgy-1">Derek Stek</a></td>
+<td><span class="citation" data-cites="patel2018">(<a href="#ref-patel2018" role="doc-biblioref">Patel et al. 2018</a>)</span></td>
 </tr>
 <tr class="even">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
 <td>2017 Summer</td>
 <td>Athira Jacobs</td>
-<td></td>
 <td>Podiatry School, Rosalind Franklin School of Medicine</td>
 <td><a href="https://www.linkedin.com/in/athira-jacob-a5980b149/">Athira Jacob</a></td>
-</tr>
-<tr class="even">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td><span class="citation" data-cites="patel2018">(<a href="#ref-patel2018" role="doc-biblioref">Patel et al. 2018</a>)</span></td>
 </tr>
 <tr class="odd">
 <td>2018 Summer</td>
 <td>Kayla Hall</td>
-<td></td>
 <td>Medical School, University of Illinois Chicago</td>
 <td></td>
+<td></td>
 </tr>
 <tr class="even">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
 <td>2018 Summer – 2019 Summer</td>
 <td>Everett Krause</td>
-<td></td>
 <td>Masters in Environmental Engineering</td>
 <td><a href="https://www.linkedin.com/in/everett-krause-16b470115/">Everett Krause</a></td>
-</tr>
-<tr class="even">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td><span class="citation" data-cites="patel2018">(<a href="#ref-patel2018" role="doc-biblioref">Patel et al. 2018</a>)</span></td>
 </tr>
 <tr class="odd">
 <td>2018 Summer – 2019 Summer</td>
 <td>Tania Rosiles</td>
-<td></td>
 <td>MSN Program, Loyola</td>
 <td><a href="https://www.linkedin.com/in/trosiles/">Tania Rosiles</a></td>
+<td><span class="citation" data-cites="patel2018 rosiles2020 rosiles2026">(<a href="#ref-patel2018" role="doc-biblioref">Patel et al. 2018</a>; <a href="#ref-rosiles2020" role="doc-biblioref">Rosiles et al. 2020</a>, <a href="#ref-rosiles2026" role="doc-biblioref">2026</a>)</span></td>
 </tr>
 <tr class="even">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
 <td>2019 – Summer – 2019 Fall</td>
 <td>Hannah Gordon</td>
-<td></td>
 <td>PhD Program, Notre Dame</td>
 <td><a href="https://www.researchgate.net/scientific-contributions/Hannah-Gordon-2246737610">Hannah Gordon</a></td>
-</tr>
-<tr class="even">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td><span class="citation" data-cites="rosiles2020">(<a href="#ref-rosiles2020" role="doc-biblioref">Rosiles et al. 2020</a>)</span></td>
 </tr>
 <tr class="odd">
 <td>2019 – Summer – 2019 Fall</td>
 <td>George Garcia</td>
-<td></td>
 <td>General Contracting</td>
 <td><a href="https://www.linkedin.com/in/george-garcia-a34a60170/">George Garcia</a></td>
+<td><span class="citation" data-cites="rosiles2020">(<a href="#ref-rosiles2020" role="doc-biblioref">Rosiles et al. 2020</a>)</span></td>
 </tr>
 <tr class="even">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
 <td>2019 – Summer – 2019 Fall</td>
 <td>Kiara Rana</td>
-<td></td>
 <td>Doctorate in Occupational Therapy, University of Illinois Chicago</td>
 <td><a href="https://www.linkedin.com/in/kiara-rana/">Kiara Rana</a></td>
-</tr>
-<tr class="even">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
 <td></td>
 </tr>
 <tr class="odd">
 <td>2019 – Summer – 2019 Fall</td>
 <td>Monica Duron</td>
-<td></td>
 <td>Medical Assistant Program, Northwestern University</td>
 <td><a href="https://www.linkedin.com/in/monduron/">Monica Duron</a></td>
+<td><span class="citation" data-cites="rosiles2020">(<a href="#ref-rosiles2020" role="doc-biblioref">Rosiles et al. 2020</a>)</span></td>
 </tr>
 <tr class="even">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
 <td>2019 – Summer – 2019 Fall</td>
 <td>Lorena Juarez</td>
-<td></td>
 <td>Medical Technologist, Rush Medical University</td>
 <td><a href="https://www.linkedin.com/in/lorena-e-juarez-mlis-41bb22171/">Lorena Juarez</a></td>
-</tr>
-<tr class="even">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td><span class="citation" data-cites="rosiles2020">(<a href="#ref-rosiles2020" role="doc-biblioref">Rosiles et al. 2020</a>)</span></td>
 </tr>
 <tr class="odd">
 <td>2019 – Summer – 2019 Fall</td>
 <td>Annette Garcia</td>
-<td></td>
 <td>Research Assistant at The Dry Eye and oGVHD clinic</td>
 <td><a href="https://www.linkedin.com/in/annette-garcia-81b857145/">Annette Garcia</a></td>
+<td><span class="citation" data-cites="rosiles2020">(<a href="#ref-rosiles2020" role="doc-biblioref">Rosiles et al. 2020</a>)</span></td>
 </tr>
 <tr class="even">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
 <td>2020 – Fall</td>
 <td>Catherine Klostermann</td>
-<td></td>
 <td>Physician Assistant, Butler University</td>
 <td><a href="https://www.linkedin.com/in/catherine-cat-klostermann-dms-pa-c-825350228/">Catherine Klostermann</a></td>
-</tr>
-<tr class="even">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
 <td></td>
 </tr>
 <tr class="odd">
 <td>2020 – Fall</td>
 <td>Lucas Eggers</td>
-<td></td>
 <td>Medical School, University of Colorado</td>
 <td><a href="https://www.linkedin.com/in/lucas-eggers-445807191/">Lucas Eggers</a></td>
+<td></td>
 </tr>
 <tr class="even">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
 <td>2022 – Summer</td>
 <td>Christian Gonzalez</td>
-<td></td>
 <td>Lab Technician, Rush</td>
 <td><a href="https://www.linkedin.com/in/christian-gonzalez-2377591b6/">Christian Gonzalez</a></td>
-</tr>
-<tr class="even">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
 <td></td>
 </tr>
 <tr class="odd">
 <td>2022 – Summer</td>
 <td>Jaqueline Gutierrez</td>
-<td></td>
 <td>Funded Post-Bac Program, University of Chicago</td>
 <td></td>
+<td></td>
 </tr>
 <tr class="even">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
 <td>2022 – Summer – 2022 Spring</td>
 <td>Steven Proutsos</td>
-<td></td>
 <td>National Health Core Member</td>
 <td><a href="https://www.linkedin.com/in/steven-proutsos-b69280238/">Steven Proutsos</a></td>
-</tr>
-<tr class="even">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td>2022 – Summer – 2022 Spring</td>
-<td>Emma Gray</td>
+<td>2022 - Summer</td>
+<td>Octavian Calin-Jageman</td>
 <td></td>
-<td>Medical School, ATSU</td>
-<td><a href="https://www.linkedin.com/in/emmasgray/">Emma Gray</a></td>
+<td></td>
+<td></td>
 </tr>
 <tr class="even">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td>2022 – Summer – 2022 Spring</td>
+<td>Emma Gray</td>
+<td>Medical School, ATSU</td>
+<td><a href="https://www.linkedin.com/in/emmasgray/">Emma Gray</a></td>
 <td></td>
 </tr>
 <tr class="odd">
 <td>2022 – Summer – 2022 Spring</td>
 <td>Hannah Danha</td>
-<td></td>
 <td>Dental Assistant / Need update!</td>
 <td><a href="https://www.linkedin.com/in/hannah-danha-6641b1234/">Hannah Danha</a></td>
+<td></td>
 </tr>
 <tr class="even">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
 <td>2022 – Summer – 2023 Summer</td>
 <td>Theresa Wilsterman</td>
-<td></td>
-<td>Research Technician, Rush Medical</td>
+<td>PhD Program, Rush Medical (also Circus!)</td>
 <td><a href="https://www.linkedin.com/in/theresa-wilsterman-7a4206120/">Theresa Wilsterman</a></td>
-</tr>
-<tr class="even">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td><span class="citation" data-cites="calin-jageman2024 calin-jageman2024">(<a href="#ref-calin-jageman2024" role="doc-biblioref">Calin-Jageman et al. 2024</a>, <a href="#ref-calin-jageman2024" role="doc-biblioref">2024</a>)</span></td>
 </tr>
 <tr class="odd">
 <td>2022 – Summer – 2023 Summer</td>
 <td>Zayra Juarez</td>
-<td></td>
-<td>Not yet graduated</td>
+<td>Graduated, need update!</td>
 <td><a href="https://www.linkedin.com/in/zayra-juarez-207736201/">Zayra Juarez</a></td>
+<td><span class="citation" data-cites="calin-jageman2024">(<a href="#ref-calin-jageman2024" role="doc-biblioref">Calin-Jageman et al. 2024</a>)</span></td>
 </tr>
 <tr class="even">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>2023 – Summer – Present</td>
+<td>2023 – Summer – 2025 - Summer</td>
 <td>Elise Gamino</td>
-<td>Y</td>
-<td>Not yet graduated</td>
-<td></td>
-</tr>
-<tr class="even">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td>Graduated, studying for MCAT</td>
+<td><a href="https://www.linkedin.com/in/elise-gamino-0baa34387/">Elise Gamino</a></td>
+<td><span class="citation" data-cites="calin-jageman2024">(<a href="#ref-calin-jageman2024" role="doc-biblioref">Calin-Jageman et al. 2024</a>)</span></td>
 </tr>
 <tr class="odd">
-<td>2023 – Summer – Present</td>
+<td>2023 – Summer – 2025 - Summer</td>
 <td>Diana Wittrock</td>
-<td>Y</td>
-<td>Not yet graduated</td>
+<td>Graduated, need update!</td>
 <td><a href="https://www.linkedin.com/in/diana-wittrock-9170582b9/">Diana Wittrock</a></td>
+<td><span class="citation" data-cites="calin-jageman2024">(<a href="#ref-calin-jageman2024" role="doc-biblioref">Calin-Jageman et al. 2024</a>)</span></td>
 </tr>
 <tr class="even">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
 <td>2022 – Summer – 2023 Summer</td>
 <td>Anna Kurkowski</td>
-<td></td>
 <td>Applying to PA schools</td>
 <td><a href="https://www.linkedin.com/in/anna-kurkowski-714540144/">Anna Kurkowski</a></td>
-</tr>
-<tr class="even">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td><span class="citation" data-cites="calin-jageman2024">(<a href="#ref-calin-jageman2024" role="doc-biblioref">Calin-Jageman et al. 2024</a>)</span></td>
 </tr>
 <tr class="odd">
 <td>2022 – Summer – 2023 Summer</td>
 <td>Leslie Valdez</td>
-<td></td>
-<td>Applying to PA schools</td>
+<td>In PA School!</td>
 <td><a href="https://www.linkedin.com/in/leslie-valdez-568687249/">Leslie Valdez</a></td>
+<td><span class="citation" data-cites="calin-jageman2024">(<a href="#ref-calin-jageman2024" role="doc-biblioref">Calin-Jageman et al. 2024</a>)</span></td>
 </tr>
 <tr class="even">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
 <td>2022 – Summer – 2023 Summer</td>
 <td>Jashui Zarate-Torres</td>
-<td></td>
-<td>Not yet graduated</td>
+<td>Community organizer with Southwest Suburban Immigrant Project</td>
 <td><a href="https://www.linkedin.com/in/jashui-z%C3%A1rate-torres-952063208/">Jashui Zarate-Torres</a></td>
-</tr>
-<tr class="even">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td><span class="citation" data-cites="calin-jageman2024">(<a href="#ref-calin-jageman2024" role="doc-biblioref">Calin-Jageman et al. 2024</a>)</span></td>
 </tr>
 <tr class="odd">
-<td>2022 – Summer – 2023 Summer</td>
+<td>2022 – Summer – 2023 - Summer</td>
 <td>Bryan Gonzalez Delgadillo</td>
-<td></td>
-<td>Not yet graduated</td>
+<td>Graduated, need update!</td>
 <td><a href="https://www.linkedin.com/in/bryan-gonzalez-delgadillo-3ba20a21b/">Bryan Gonzalez Delgadillo</a></td>
+<td><span class="citation" data-cites="calin-jageman2024">(<a href="#ref-calin-jageman2024" role="doc-biblioref">Calin-Jageman et al. 2024</a>)</span></td>
 </tr>
 <tr class="even">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>2023 – Summer – Present</td>
+<td>2023 – Summer – 2024 - Summer</td>
 <td>Nelly Musajeva</td>
-<td>Y</td>
-<td>Not yet graduated</td>
+<td>Graduated, applying to graduate programs</td>
 <td><a href="https://www.linkedin.com/in/nelly-musajeva/">Nelly Musajeva</a></td>
+<td><span class="citation" data-cites="calin-jageman2024">(<a href="#ref-calin-jageman2024" role="doc-biblioref">Calin-Jageman et al. 2024</a>)</span></td>
+</tr>
+<tr class="odd">
+<td>2026 - Summer</td>
+<td>Carys McFaul</td>
+<td>Graduated, applying to med school</td>
+<td><a href="https://www.linkedin.com/in/carys-mcfaul-42736138b/">Carys McFaul</a></td>
+<td></td>
 </tr>
 <tr class="even">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td>2025 - Summer - Present</td>
+<td>Eli Caron</td>
+<td>Not yet graduated</td>
+<td><a href="https://www.linkedin.com/in/eli-caron-2a0716226/">Eli Caron</a></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td>2024 – Summer – Present</td>
-<td>Carys McFaul</td>
-<td>Y</td>
-<td>Not yet graduated</td>
+<td>2025 Summer</td>
+<td>Armin Mrzljak</td>
+<td>Graduated, need an update!</td>
+<td>Armin Mrzljak</td>
 <td></td>
 </tr>
 <tr class="even">
+<td>2025 Summer</td>
+<td>Charles Kasella</td>
+<td>Not yet graduated</td>
+<td><a href="https://www.linkedin.com/in/charles-kasella/">Charles Kasella</a></td>
 <td></td>
+</tr>
+<tr class="odd">
+<td>2025 Summer</td>
+<td>Karolina Kraj</td>
+<td>Graduated, need an update!</td>
+<td><a href="https://www.linkedin.com/in/karolinakraj/">Karolina Kraj</a></td>
 <td></td>
+</tr>
+<tr class="even">
+<td>2026 Summer</td>
+<td>Alexa Guzman Villanueva</td>
+<td>Not yet graduated</td>
+<td><a href="https://www.linkedin.com/in/amgv29/">Alexa Guzman Villanueva</a></td>
 <td></td>
+</tr>
+<tr class="odd">
+<td>2026 Summer</td>
+<td>Layla Forrest</td>
+<td>Not yet graduated</td>
+<td><a href="https://www.linkedin.com/in/layla-forrest/">Layla Forrest</a></td>
 <td></td>
+</tr>
+<tr class="even">
+<td>2026 Summer</td>
+<td>Vanessa Solis</td>
+<td>Not yet graduated</td>
+<td><a href="https://www.linkedin.com/in/vanessaesolis/">Vanessa Solis</a></td>
 <td></td>
 </tr>
 </tbody>
@@ -1115,7 +841,42 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-</main> <!-- /main -->
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-bonnick2012" class="csl-entry" role="listitem">
+Bonnick, Kristine, Karla Bayas, Dmitry Belchenko, et al. 2012. <span>“Transcriptional Changes Following Long-Term Sensitization Training and in Vivo Serotonin Exposure in <span><em>Aplysia</em></span> Californica.”</span> <em>PLoS ONE</em> 7 (10): e47378. <a href="https://doi.org/10.1371/journal.pone.0047378">https://doi.org/10.1371/journal.pone.0047378</a>.
+</div>
+<div id="ref-calin-jageman2024" class="csl-entry" role="listitem">
+Calin-Jageman, Robert J., Bryan Gonzalez Delgadillo, Elise Gamino, et al. 2024. <span>“Evidence of Active-Forgetting Mechanisms? Blocking Arachidonic Acid Release May Slow Forgetting of Sensitization in Aplysia.”</span> <em>eNeuro</em> 11 (4). <a href="https://doi.org/10.1523/ENEURO.0516-23.2024">https://doi.org/10.1523/ENEURO.0516-23.2024</a>.
+</div>
+<div id="ref-conte2017" class="csl-entry" role="listitem">
+Conte, Catherine, Samantha Herdegen, Saman Kamal, et al. 2017. <span>“Transcriptional Correlates of Memory Maintenance Following Long-Term Sensitization of Aplysia Californica.”</span> <em>Learning &amp; Memory</em> 24 (10): 502–15. <a href="https://doi.org/10.1101/lm.045450.117">https://doi.org/10.1101/lm.045450.117</a>.
+</div>
+<div id="ref-cyriac2013" class="csl-entry" role="listitem">
+Cyriac, Ashly, Geraldine Holmes, Jamie Lass, Dmitry Belchenko, Robert J. Calin-Jageman, and Irina E. Calin-Jageman. 2013. <span>“An <span><em>Aplysia</em></span> Egr Homolog Is Rapidly and Persistently Regulated by Long-Term Sensitization Training.”</span> <em>Neurobiology of Learning and Memory</em> 102 (May): 43–51. <a href="https://doi.org/10.1016/j.nlm.2013.03.008">https://doi.org/10.1016/j.nlm.2013.03.008</a>.
+</div>
+<div id="ref-herdegen2014" class="csl-entry" role="listitem">
+Herdegen, Samantha, Catherine Conte, Saman Kamal, Robert J. Calin-Jageman, and Irina E. Calin-Jageman. 2014. <span>“Immediate and Persistent Transcriptional Correlates of Long-Term Sensitization Training at Different Cns Loci in <span><em>Aplysia Californica</em></span>.”</span> <em>PLoS ONE</em> 9 (12): e114481. <a href="https://doi.org/10.1371/journal.pone.0114481">https://doi.org/10.1371/journal.pone.0114481</a>.
+</div>
+<div id="ref-herdegen2014a" class="csl-entry" role="listitem">
+Herdegen, Samantha, Geraldine Holmes, Ashly Cyriac, Irina E. Calin-Jageman, and Robert J. Calin-Jageman. 2014. <span>“Characterization of the Rapid Transcriptional Response to Long-Term Sensitization Training in <span><em>Aplysia Californica</em></span>.”</span> <em>Neurobiology of Learning and Memory</em> 116 (December): 27–35. <a href="https://doi.org/10.1016/j.nlm.2014.07.009">https://doi.org/10.1016/j.nlm.2014.07.009</a>.
+</div>
+<div id="ref-holmes2014" class="csl-entry" role="listitem">
+Holmes, Geraldine, Samantha Herdegen, Jonathan Schuon, et al. 2014. <span>“Transcriptional Analysis of a Whole-Body Form of Long-Term Habituation in Aplysia Californica.”</span> <em>Learning &amp; Memory</em> 22 (1): 11–23. <a href="https://doi.org/10.1101/lm.036970.114">https://doi.org/10.1101/lm.036970.114</a>.
+</div>
+<div id="ref-patel2018" class="csl-entry" role="listitem">
+Patel, Ushma, Leticia Perez, Steven Farrell, et al. 2018. <span>“Transcriptional Changes Before and After Forgetting of a Long-Term Sensitization Memory in <span><em>Aplysia Californica</em></span>.”</span> <em>Neurobiology of Learning and Memory</em> 155 (November): 474–85. <a href="https://doi.org/10.1016/j.nlm.2018.09.007">https://doi.org/10.1016/j.nlm.2018.09.007</a>.
+</div>
+<div id="ref-perez2018" class="csl-entry" role="listitem">
+Perez, Leticia, Ushma Patel, Marissa Rivota, Irina E. Calin-Jageman, and Robert J. Calin-Jageman. 2018. <span>“Savings Memory Is Accompanied by Transcriptional Changes That Persist Beyond the Decay of Recall.”</span> <em>Learning &amp; Memory</em> 25 (1): 45–48. <a href="https://doi.org/10.1101/lm.046250.117">https://doi.org/10.1101/lm.046250.117</a>.
+</div>
+<div id="ref-rosiles2026" class="csl-entry" role="listitem">
+Rosiles, Tania, Melissa Nguyen, Robert J. Calin-Jageman, and Irina E. Calin-Jageman. 2026. <span>“Transcriptional Changes Fade Prior to Long-Term Memory for Sensitization of the <span><em>Aplysia</em></span> Siphon-Withdrawal Reflex.”</span> <em>Eneuro</em>, March 9, ENEURO.0477–25.2026. <a href="https://doi.org/10.1523/ENEURO.0477-25.2026">https://doi.org/10.1523/ENEURO.0477-25.2026</a>.
+</div>
+<div id="ref-rosiles2020" class="csl-entry" role="listitem">
+Rosiles, Tania, Melissa Nguyen, Monica Duron, et al. 2020. <span>“Registered Report: Transcriptional Analysis of Savings Memory Suggests Forgetting Is Due to Retrieval Failure.”</span> <em>Eneuro</em> 7 (6): ENEURO.0313–19.2020. <a href="https://doi.org/10.1523/ENEURO.0313-19.2020">https://doi.org/10.1523/ENEURO.0313-19.2020</a>.
+</div>
+</div></section></div></main> <!-- /main -->
 <script>
 
 

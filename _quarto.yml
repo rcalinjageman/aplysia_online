@@ -60,6 +60,10 @@ website:
       href: https://jbrowse.aplysia.online
     - text: Downloads
       href: rawreads.qmd
+    - text: Workflows
+      contents:
+        - workflows/annotation_processing.qmd
+
 format:
   html:
     link-external-newwindow: true
@@ -72,6 +76,10 @@ format:
     code-overflow: wrap
     css: [styles.css, include/webex.css]
     include-after-body: include/webex.js
+    include-in-header:
+      - text: |
+          <link href="https://cdn.jsdelivr.net/gh/tofsjonas/sortable@latest/sortable.min.css" rel="stylesheet" />
+          <script src="https://cdn.jsdelivr.net/gh/tofsjonas/sortable@latest/sortable.min.js"></script>
 
 editor: visual
 

@@ -1,6 +1,6 @@
 [
   {
-    "listing": "/blog.html",
+    "listing": "/index.html",
     "items": [
       "/posts/mcfaul-wins-mulroy/index.html",
       "/posts/sluglab-in-the-transmitter/index.html",
@@ -12,7 +12,7 @@
     ]
   },
   {
-    "listing": "/index.html",
+    "listing": "/blog.html",
     "items": [
       "/posts/mcfaul-wins-mulroy/index.html",
       "/posts/sluglab-in-the-transmitter/index.html",

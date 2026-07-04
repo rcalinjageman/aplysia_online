@@ -4,11 +4,51 @@ title-block-banner: false
 bibliography: references.bib
 ---
 
-These pages organizes downloads of raw reads from various *Aplysia* sequencing projects the Slug Lab has carried out in collaboration with the University of Illinois. Downloads are provided via DropBox. If you find a bad link or an inaccessible file, please let us know.
+This page organizes resources from various *Aplysia* sequencing projects the Slug Lab has carried out in collaboration with the University of Illinois.
+
+# Processed Files
+
+## Long-Read Assembly of the *Aplysia* Genome
+
+The long-read assembly we produced (DOMU_ApCal_1.1) is posted to NCBI: <https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_041379995.1/>
+
+The posted assembly does not include mitochondrial DNA.
+
+You can BLAST this assembly at NCBI or from our sequence sever: <https://blast.aplysia.online>
+
+## Annotations
+
+To annotate the new genomic assembly, we:
+
+- Used Liftoff to map the current NCBI annotation to the new assembly, release 102: <https://www.ncbi.nlm.nih.gov/refseq/annotation_euk/Aplysia_californica/102/> (see also the files NCBI has posted here: <https://ftp.ncbi.nlm.nih.gov/genomes/all/annotation_releases/6500/102>)
+
+- Used Liftoff to map the current Ensembl annotation to the new assembly, the release last updated 11/2024: <https://beta.ensembl.org/species/264cff85-f586-4e0f-afd3-29ea13f42ef2>. (see also the files posted by Ensembl here: <https://ftp.ebi.ac.uk/pub/ensemblorganisms/Aplysia_californica/GCA_000002075.2/ensembl/geneset/2024_11/>)
+
+- Created a de novo assembly using Braker (DomUCal de novo 2024). For this de novo assembly we pulled all the available short-read and expression data for *Aplysia* posted to NCBI (as of early 2025) and also included a run of IsoSeq from neuronal tissue.
+
+We then used GffCompare to cross-reference these annotations, marking the new annotation with matches to the NCBI and Ensembl annotations and the lifted-over NCBI and Ensembl annotations with matches to the *de novo annotation*.
+
+You can explore these annotation in the genome browser we host: <https://jbrowse.aplysia.online>
+
+You can download these annotation files here (links, for now, are via Dropbox; TBD: post to an stable archive that provides DOIs):
+
+- [ncbi_apcal102_lifted_crossreferenced.gff3](https://www.dropbox.com/scl/fi/t5q4lntz89304a9igpnoj/ncbi_apcal102_lifted_crossreferenced.gff3?rlkey=odiz1o3xrtzz4o8hu869coxj7&dl=0)
+
+- [ensembl_2024_11_lifted_crossreferenced.gff3](https://www.dropbox.com/scl/fi/t4xq92khp8jqz90om66c2/ensembl_2024_11_lifted_crossreferenced.gff3?rlkey=up6g97b9znlo5dxowfm5hior4&dl=0)
+
+- [domucal_de_novo_2025_crossreferenced.gff3](https://www.dropbox.com/scl/fi/n5dys7wtzsrojow2okjts/domucal_de_novo_2025_crossreferenced.gff3?rlkey=h1ly96ebnfiftsgiq4au35lde&dl=0)
+
+## Additional Sequence Data
+
+TBD: Post extracted CDS and predicted protein sequences for each annotation.
+
+# Raw Reads
+
+Downloads are provided via DropBox. If you find a bad link or an inaccessible file, please let us know.
 
 You are welcome to pull these files for your own analyses and projects; please cite this page (or our pending paper describing these projects once we finally get it posted).
 
-# Genomic Sequencing
+## Genomic Sequencing
 
 Genomic sequencing was completed from muscle tissue isolated from the body wall. Animals were anesthetized, chunks of body wall tissue were quickly extracted and then flash frozen. Samples were collected on 6/27/2023 (after a failed attempt to extract from nervous system tissue) from two animals, with the intention of using one for sequencing and one as a backup. Animal 2047 ended up being used for all genomic sequencing.
 
@@ -22,7 +62,7 @@ We found a technical note from PacBio with specific recs for Aplysia. It doesn't
 
 ![](images/genomic_extraction2.png)
 
-## First Run
+### First Run
 
 File: [UIC_Genomics_Aplysia_1_m64108e_230727_144537.hifi_reads.bam    39.51 GB](https://www.dropbox.com/scl/fi/ipo8wfidm3qsg4ka4brit/UIC_Genomics_Aplysia_1_m64108e_230727_144537.hifi_reads.bam?rlkey=5cj9vlwcmwqo0fh36wwjvwugh&st=1z5ad68a&dl=0)\
 File: [UIC_Genomics_Aplysia_1_m64108e_230727_144537.hifi_reads.fastq.gz    8.37 GB](https://www.dropbox.com/scl/fi/ss8ar3s6dqeub6my5yeiu/UIC_Genomics_Aplysia_1_m64108e_230727_144537.hifi_reads.fastq.gz?rlkey=skaows05gk3az4941i32uyaf5&st=a0a21on1&dl=0)\
@@ -33,7 +73,7 @@ Summary report: [UIC_Genomics_Aplysia_HiFi_report_20230731.xlsx](https://www.dro
 
 The output was lower than we expected, with each SMRTcell only producing 11Gb with mean read lengths of 10kb.
 
-## Second Run
+### Second Run
 
 The two new SMRTcells are ready. These two produced a total of just over 23Gb of CCS data with mean read lengths of 10kb, so they performed the same as the previous run.
 
@@ -44,7 +84,7 @@ File: [UIC_Genomics_Aplysia_4_m64108e_230823_033821.hifi_reads.fastq.gz    
 
 Summary report: [UIC_Genomics_Aplysia_HiFi_report_20230824.xlsx](https://www.dropbox.com/scl/fi/o6a2c730h7whkbu4493pq/UIC_Genomics_Aplysia_HiFi_report_20230824.xlsx?rlkey=qrh52y9vtskfjhmv7nxqzh8a6&st=eq0g4m7t&dl=0)
 
-# OmniC and Tellseq
+## OmniC and Tellseq
 
 We conducted Tell-SEQ from material extracted from muscle samples of animal 2047, the same animal used for the long-read genomic sequencing above.
 
@@ -61,7 +101,7 @@ And the 3 OmniC libraries and one TellSeq libraries are ready. As a reminder, th
 
 They were sequenced in a 10B lane in a NovaSeq X Plus and produced over 2 billion reads with great quality scores.
 
-# Methylation-Specific Sequencing
+## Methylation-Specific Sequencing
 
 File: [Aplysia_2_EMSeq.2023713.tar.bz2    40.38 GB](https://www.dropbox.com/scl/fi/x3xpklnb9so9r0yrab8as/Aplysia_2_EMSeq.2023713.tar.bz2?rlkey=ly2o34bib10bdkukeeg2hpv4q&st=zz49yqlk&dl=0)\
 File: [Project_Aplysia_2_EMSeq_multiqc_report.html    \<1 GB](https://www.dropbox.com/scl/fi/tlutc6mhtvj7ji9f5b6ut/Project_Aplysia_2_EMSeq_multiqc_report.html?rlkey=39okgpt011szir0r3rchbbxfr&st=3d3kota5&dl=0)
@@ -70,7 +110,7 @@ Summary report: [Report_Aplysia_2_EMSeq_2023713.xlsx](https://www.dropbox.com/sc
 
 The methylation libraries have been sequenced on an SP lane with 2x150nt reads and produced over 720 million reads with great quality scores.
 
-# PacBio Long-Read Transcriptome from Pleural Ganglia
+## PacBio Long-Read Transcriptome from Pleural Ganglia
 
 Samples were prepared on 6/7/2023:
 

@@ -2,115 +2,72 @@
 title: "People of the Slug Lab"
 page-layout: full
 title-block-banner: false
+bibliography: references.bib
 ---
 
 **Members, Past and Present**
 
-|  |  |  |  |  |
-|-------------|-------------|-------------|-------------|--------------------|
-| **Semester** | **Student** | **Current** | **After Graduation** | **Link** |
-|  |  |  |  |  |
-| 2010 Fall – 2011 Spring | Kristine Bonnick |  | Med School, Loma Linda University | [Kristine Bonnick](https://lluh.org/provider/bonnick-kristine) |
-|  |  |  |  |  |
-| 2010 Fall – 2011 Spring | Patrycja Oleksiak |  | MA Ultrasound Sonography, Northwestern University |  |
-|  |  |  |  |  |
-| 2010 Fall – 2011 Spring | Benora McBride |  | Pharmacy School, Notre Dame of Maryland University | [Benora McBride](https://npidb.org/doctors/pharmacy/pharmacist_183500000x/1962958272.aspx) |
-|  |  |  |  |  |
-| 2010 Fall – 2011 Spring | Nadine Nitisusanta |  | Dental School, University of Illinois at Chicago | [Nadine Nitisusanta](https://familyorlandodentistry.com/) |
-|  |  |  |  |  |
-| 2010 Fall – 2011 Spring | Laura Salazar |  | Masters in Clinical Psychology, Illinois Institute of Technology | [Laura Salazar](https://www.linkedin.com/in/laura-salazar-11a98075/) |
-|  |  |  |  |  |
-| 2010 Fall – 2011 Spring | Karolina Matel |  | R&D Regulatory Affairs Associate Principal Scientist | [Karolina Matel](https://www.linkedin.com/in/karolinamatel/) |
-|  |  |  |  |  |
-| 2011 Summer – 2012 Spring | Karla Bayas |  | Law School, University of Illinois | [Karla Bayas](https://www.linkedin.com/in/karlabayas/) |
-|  |  |  |  |  |
-| 2011 Summer – 2012 Spring | Michael Dove |  | Med School, Thomas Jefferson University | [Michael Dove](https://atriumhealth.org/provider-profile/michael-dove-1770019812) |
-|  |  |  |  |  |
-| 2011 Summer – 2012 Spring | Vanessa Mendiola |  | Masters in Education, Dominican University | [Vanessa Mendiola](https://www.linkedin.com/in/vanessa-mendiola-695b7566/) |
-|  |  |  |  |  |
-| 2011 Summer – 2013 Summer | Ashly Cyriac |  | Optometry School, Salus University | [Ashly Cyriac](https://www.linkedin.com/in/ashly-c-7696051a5/) |
-|  |  |  |  |  |
-| 2012 Spring – 2013 Summer | Jamie Lass |  | Masters in Nutrition and Wellness, Benedictine University | [Jamie Sabel](https://www.linkedin.com/in/jamie-sabel-a87a2420/) |
-|  |  |  |  |  |
-| 2012 Spring – 2015 Spring | Samantha Herdegen |  | Pharmacy, Midwestern University | [Samantha Herdegen](https://www.linkedin.com/in/samantha-herdegen-a61237b9/) |
-|  |  |  |  |  |
-| 2012 Spring – Summer | Dmitry Belchenko |  | Med School, Touro University Nevada | [Dmitry Belchenko](https://www.linkedin.com/in/dmitry-belchenko-149487125/) |
-|  |  |  |  |  |
-| 2012 Summer – 2013 Summer | Geraldine Holmes |  | PhD in Evolutionary Biology, University of Victoria, Canada |  |
-|  |  |  |  |  |
-| 2013 Summer – 2015 Spring | Jonathan Schuon |  | Med School, University of Illinois | [Jonathan Schuon](https://medicine.tulane.edu/departments/orthopaedics/medical-resident/jonathan-schuon-md) |
-|  |  |  |  |  |
-| 2013 Summer – 2016 Spring | Catherine Conte |  | Physical Therapy, Midwestern University | [Catherine Conte](https://www.linkedin.com/in/catherineconte3/) |
-|  |  |  |  |  |
-| 2013 Summer – 2016 Spring | Saman Kamal |  | Med School, University of Texas Baylor | [Saman Kamal](https://doctor.webmd.com/doctor/saman-kamal-8eb43dc8-c66d-4c2c-be82-a6b45de66b5a-overview) |
-|  |  |  |  |  |
-| 2014 Summer | Gail Gutman |  | Med School, Tel Aviv University, Israel | [Gail Gutman](https://www.healthgrades.com/physician/dr-gail-gutman-xynph5n) |
-|  |  |  |  |  |
-| 2015 Summer | Jency Patel |  | Med School, St. Kitts | [Jency Patel](https://www.linkedin.com/in/patel-jency-80b6bb85/), [Link](https://www.linkedin.com/in/patel-jency-80b6bb85/) |
-|  |  |  |  |  |
-| 2015 Summer – 2018 Spring | Leticia Perez |  | Veterinary Medicine, University of Illinois | [Leticia Perez](https://www.linkedin.com/in/leticiaperez25/) |
-|  |  |  |  |  |
-| 2015 Summer – 2018 Spring | Ushma Patel |  | MA in Biomedical Illustration, University of Illinois Chicago | [Ushma Patel](https://www.linkedin.com/in/ushmap/) |
-|  |  |  |  |  |
-| 2016 Summer – 2017 Spring | Marissa Rivota |  | Manufacturing Supervisor (DS) | [Marissa Rivota](https://www.linkedin.com/in/marissa-rivota-905b2a172/) |
-|  |  |  |  |  |
-| 2016 Summer – 2018 Spring | Steven Farrel |  | Lead Clinical Informatics Specialist/Scribe at Oak Street Health, Hammond | [Steven Farrell](https://www.linkedin.com/in/steven-farrell-043590154/) |
-|  |  |  |  |  |
-| 2016 Summer – 2019 Summer | Melissa Nguyen |  | Masters in Medical Sciences, Midwestern University |  |
-|  |  |  |  |  |
-| 2017 Summer | Derek Steck |  | Medical School, University of Wisconsin | [Derek Stek](https://www.mcw.edu/departments/medicine/education/residency-program/residents/pgy-1) |
-|  |  |  |  |  |
-| 2017 Summer | Athira Jacobs |  | Podiatry School, Rosalind Franklin School of Medicine | [Athira Jacob](https://www.linkedin.com/in/athira-jacob-a5980b149/) |
-|  |  |  |  |  |
-| 2018 Summer | Kayla Hall |  | Medical School, University of Illinois Chicago |  |
-|  |  |  |  |  |
-| 2018 Summer – 2019 Summer | Everett Krause |  | Masters in Environmental Engineering | [Everett Krause](https://www.linkedin.com/in/everett-krause-16b470115/) |
-|  |  |  |  |  |
-| 2018 Summer – 2019 Summer | Tania Rosiles |  | MSN Program, Loyola | [Tania Rosiles](https://www.linkedin.com/in/trosiles/) |
-|  |  |  |  |  |
-| 2019 – Summer – 2019 Fall | Hannah Gordon |  | PhD Program, Notre Dame | [Hannah Gordon](https://www.researchgate.net/scientific-contributions/Hannah-Gordon-2246737610) |
-|  |  |  |  |  |
-| 2019 – Summer – 2019 Fall | George Garcia |  | General Contracting | [George Garcia](https://www.linkedin.com/in/george-garcia-a34a60170/) |
-|  |  |  |  |  |
-| 2019 – Summer – 2019 Fall | Kiara Rana |  | Doctorate in Occupational Therapy, University of Illinois Chicago | [Kiara Rana](https://www.linkedin.com/in/kiara-rana/) |
-|  |  |  |  |  |
-| 2019 – Summer – 2019 Fall | Monica Duron |  | Medical Assistant Program, Northwestern University | [Monica Duron](https://www.linkedin.com/in/monduron/) |
-|  |  |  |  |  |
-| 2019 – Summer – 2019 Fall | Lorena Juarez |  | Medical Technologist, Rush Medical University | [Lorena Juarez](https://www.linkedin.com/in/lorena-e-juarez-mlis-41bb22171/) |
-|  |  |  |  |  |
-| 2019 – Summer – 2019 Fall | Annette Garcia |  | Research Assistant at The Dry Eye and oGVHD clinic | [Annette Garcia](https://www.linkedin.com/in/annette-garcia-81b857145/) |
-|  |  |  |  |  |
-| 2020 – Fall | Catherine Klostermann |  | Physician Assistant, Butler University | [Catherine Klostermann](https://www.linkedin.com/in/catherine-cat-klostermann-dms-pa-c-825350228/) |
-|  |  |  |  |  |
-| 2020 – Fall | Lucas Eggers |  | Medical School, University of Colorado | [Lucas Eggers](https://www.linkedin.com/in/lucas-eggers-445807191/) |
-|  |  |  |  |  |
-| 2022 – Summer | Christian Gonzalez |  | Lab Technician, Rush | [Christian Gonzalez](https://www.linkedin.com/in/christian-gonzalez-2377591b6/) |
-|  |  |  |  |  |
-| 2022 – Summer | Jaqueline Gutierrez |  | Funded Post-Bac Program, University of Chicago |  |
-|  |  |  |  |  |
-| 2022 – Summer – 2022 Spring | Steven Proutsos |  | National Health Core Member | [Steven Proutsos](https://www.linkedin.com/in/steven-proutsos-b69280238/) |
-|  |  |  |  |  |
-| 2022 – Summer – 2022 Spring | Emma Gray |  | Medical School, ATSU | [Emma Gray](https://www.linkedin.com/in/emmasgray/) |
-|  |  |  |  |  |
-| 2022 – Summer – 2022 Spring | Hannah Danha |  | Dental Assistant / Need update! | [Hannah Danha](https://www.linkedin.com/in/hannah-danha-6641b1234/) |
-|  |  |  |  |  |
-| 2022 – Summer – 2023 Summer | Theresa Wilsterman |  | Research Technician, Rush Medical | [Theresa Wilsterman](https://www.linkedin.com/in/theresa-wilsterman-7a4206120/) |
-|  |  |  |  |  |
-| 2022 – Summer – 2023 Summer | Zayra Juarez |  | Not yet graduated | [Zayra Juarez](https://www.linkedin.com/in/zayra-juarez-207736201/) |
-|  |  |  |  |  |
-| 2023 – Summer – Present | Elise Gamino | Y | Not yet graduated |  |
-|  |  |  |  |  |
-| 2023 – Summer – Present | Diana Wittrock | Y | Not yet graduated | [Diana Wittrock](https://www.linkedin.com/in/diana-wittrock-9170582b9/) |
-|  |  |  |  |  |
-| 2022 – Summer – 2023 Summer | Anna Kurkowski |  | Applying to PA schools | [Anna Kurkowski](https://www.linkedin.com/in/anna-kurkowski-714540144/) |
-|  |  |  |  |  |
-| 2022 – Summer – 2023 Summer | Leslie Valdez |  | Applying to PA schools | [Leslie Valdez](https://www.linkedin.com/in/leslie-valdez-568687249/) |
-|  |  |  |  |  |
-| 2022 – Summer – 2023 Summer | Jashui Zarate-Torres |  | Not yet graduated | [Jashui Zarate-Torres](https://www.linkedin.com/in/jashui-z%C3%A1rate-torres-952063208/) |
-|  |  |  |  |  |
-| 2022 – Summer – 2023 Summer | Bryan Gonzalez Delgadillo |  | Not yet graduated | [Bryan Gonzalez Delgadillo](https://www.linkedin.com/in/bryan-gonzalez-delgadillo-3ba20a21b/) |
-|  |  |  |  |  |
-| 2023 – Summer – Present | Nelly Musajeva | Y | Not yet graduated | [Nelly Musajeva](https://www.linkedin.com/in/nelly-musajeva/) |
-|  |  |  |  |  |
-| 2024 – Summer – Present | Carys McFaul | Y | Not yet graduated |  |
-|  |  |  |  |  |
+| **Semester** | **Student** | **After Graduation** | **Link** | **Papers** |
+|---------------|---------------|---------------|---------------|---------------|
+| 2010 Fall – 2011 Spring | Kristine Bonnick | Med School, Loma Linda University | [Kristine Bonnick](https://lluh.org/provider/bonnick-kristine) | [@bonnick2012] |
+| 2010 Fall – 2011 Spring | Patrycja Oleksiak | MA Ultrasound Sonography, Northwestern University |  |  |
+| 2010 Fall – 2011 Spring | Benora McBride | Pharmacy School, Notre Dame of Maryland University | [Benora McBride](https://npidb.org/doctors/pharmacy/pharmacist_183500000x/1962958272.aspx) | [@bonnick2012] |
+| 2010 Fall – 2011 Spring | Nadine Nitisusanta | Dental School, University of Illinois at Chicago | [Nadine Nitisusanta](https://familyorlandodentistry.com/) |  |
+| 2010 Fall – 2011 Spring | Laura Salazar | Masters in Clinical Psychology, Illinois Institute of Technology | [Laura Salazar](https://www.linkedin.com/in/laura-salazar-11a98075/) |  |
+| 2010 Fall – 2011 Spring | Karolina Matel | R&D Regulatory Affairs Associate Principal Scientist | [Karolina Matel](https://www.linkedin.com/in/karolinamatel/) |  |
+| 2011 Summer – 2012 Spring | Karla Bayas | Law School, University of Illinois | [Karla Bayas](https://www.linkedin.com/in/karlabayas/) | [@bonnick2012] |
+| 2011 Summer – 2012 Spring | Michael Dove | Med School, Thomas Jefferson University | [Michael Dove](https://atriumhealth.org/provider-profile/michael-dove-1770019812) | [@bonnick2012] |
+| 2011 Summer – 2012 Spring | Vanessa Mendiola | Masters in Education, Dominican University | [Vanessa Mendiola](https://www.linkedin.com/in/vanessa-mendiola-695b7566/) |  |
+| 2011 Summer – 2013 Summer | Ashly Cyriac | Optometry School, Salus University | [Ashly Cyriac](https://www.linkedin.com/in/ashly-c-7696051a5/) | [@bonnick2012; @cyriac2013; @herdegen2014a; @holmes2014] |
+| 2012 Spring – 2013 Summer | Jamie Lass | Masters in Nutrition and Wellness, Benedictine University | Jamie Lass | [@bonnick2012; @cyriac2013; @holmes2014] |
+| 2012 Spring – 2015 Spring | Samantha Herdegen | Pharmacy, Midwestern University | [Samantha Herdegen](https://www.linkedin.com/in/samantha-herdegen-a61237b9/) | [@herdegen2014; @herdegen2014a; @holmes2014; @conte2017] |
+| 2012 Spring – Summer | Dmitry Belchenko | DO from Touro University. PGY-1 Intern - St John Macomb-Oakland Hospital | [Dmitry Belchenko](https://www.linkedin.com/in/dmitry-belchenko-149487125/) | [@bonnick2012; @cyriac2013] |
+| 2012 Summer – 2013 Summer | Geraldine Holmes | PhD in Evolutionary Biology, University of Victoria, Canada |  | [@cyriac2013; @herdegen2014a; @holmes2014] |
+| 2013 Summer – 2015 Spring | Jonathan Schuon | Med School, University of Illinois | [Jonathan Schuon](https://medicine.tulane.edu/departments/orthopaedics/medical-resident/jonathan-schuon-md) | [@holmes2014] |
+| 2013 Summer – 2016 Spring | Catherine Conte | Physical Therapy, Midwestern University | [Catherine Conte](https://www.linkedin.com/in/catherineconte3/) | [@herdegen2014; @holmes2014; @conte2017] |
+| 2013 Summer – 2016 Spring | Saman Kamal | Med School, University of Texas Baylor | [Saman Kamal](https://doctor.webmd.com/doctor/saman-kamal-8eb43dc8-c66d-4c2c-be82-a6b45de66b5a-overview) | [@herdegen2014; @conte2017] |
+| 2014 Summer | Gail Gutman | Med School, Tel Aviv University, Israel | [Gail Gutman](https://www.healthgrades.com/physician/dr-gail-gutman-xynph5n) |  |
+| 2015 Summer | Jency Patel | Med School, St. Kitts | [Jency Patel](https://www.linkedin.com/in/patel-jency-80b6bb85/), [Link](https://www.linkedin.com/in/patel-jency-80b6bb85/) | [@conte2017] |
+| 2015 Summer – 2018 Spring | Leticia Perez | Veterinary Medicine, University of Illinois | [Leticia Perez](https://www.linkedin.com/in/leticiaperez25/) | [@conte2017; @patel2018; @perez2018] |
+| 2015 Summer – 2018 Spring | Ushma Patel | MA in Biomedical Illustration, University of Illinois Chicago | [Ushma Patel](https://www.linkedin.com/in/ushmap/) | [@conte2017; @patel2018; @perez2018] |
+| 2016 Summer – 2017 Spring | Marissa Rivota | Manufacturing Supervisor (DS) | [Marissa Rivota](https://www.linkedin.com/in/marissa-rivota-905b2a172/) | [@conte2017; @perez2018] |
+| 2016 Summer – 2018 Spring | Steven Farrel | Lead Clinical Informatics Specialist/Scribe at Oak Street Health, Hammond | [Steven Farrell](https://www.linkedin.com/in/steven-farrell-043590154/) | [@patel2018] |
+| 2016 Summer – 2019 Summer | Melissa Nguyen | Masters in Medical Sciences, Midwestern University |  | [@patel2018; @rosiles2020; @rosiles2026] |
+| 2017 Summer | Derek Steck | Medical School, University of Wisconsin | [Derek Stek](https://www.mcw.edu/departments/medicine/education/residency-program/residents/pgy-1) | [@patel2018] |
+| 2017 Summer | Athira Jacobs | Podiatry School, Rosalind Franklin School of Medicine | [Athira Jacob](https://www.linkedin.com/in/athira-jacob-a5980b149/) | [@patel2018] |
+| 2018 Summer | Kayla Hall | Medical School, University of Illinois Chicago |  |  |
+| 2018 Summer – 2019 Summer | Everett Krause | Masters in Environmental Engineering | [Everett Krause](https://www.linkedin.com/in/everett-krause-16b470115/) | [@patel2018] |
+| 2018 Summer – 2019 Summer | Tania Rosiles | MSN Program, Loyola | [Tania Rosiles](https://www.linkedin.com/in/trosiles/) | [@patel2018; @rosiles2020; @rosiles2026] |
+| 2019 – Summer – 2019 Fall | Hannah Gordon | PhD Program, Notre Dame | [Hannah Gordon](https://www.researchgate.net/scientific-contributions/Hannah-Gordon-2246737610) | [@rosiles2020] |
+| 2019 – Summer – 2019 Fall | George Garcia | General Contracting | [George Garcia](https://www.linkedin.com/in/george-garcia-a34a60170/) | [@rosiles2020] |
+| 2019 – Summer – 2019 Fall | Kiara Rana | Doctorate in Occupational Therapy, University of Illinois Chicago | [Kiara Rana](https://www.linkedin.com/in/kiara-rana/) |  |
+| 2019 – Summer – 2019 Fall | Monica Duron | Medical Assistant Program, Northwestern University | [Monica Duron](https://www.linkedin.com/in/monduron/) | [@rosiles2020] |
+| 2019 – Summer – 2019 Fall | Lorena Juarez | Medical Technologist, Rush Medical University | [Lorena Juarez](https://www.linkedin.com/in/lorena-e-juarez-mlis-41bb22171/) | [@rosiles2020] |
+| 2019 – Summer – 2019 Fall | Annette Garcia | Research Assistant at The Dry Eye and oGVHD clinic | [Annette Garcia](https://www.linkedin.com/in/annette-garcia-81b857145/) | [@rosiles2020] |
+| 2020 – Fall | Catherine Klostermann | Physician Assistant, Butler University | [Catherine Klostermann](https://www.linkedin.com/in/catherine-cat-klostermann-dms-pa-c-825350228/) |  |
+| 2020 – Fall | Lucas Eggers | Medical School, University of Colorado | [Lucas Eggers](https://www.linkedin.com/in/lucas-eggers-445807191/) |  |
+| 2022 – Summer | Christian Gonzalez | Lab Technician, Rush | [Christian Gonzalez](https://www.linkedin.com/in/christian-gonzalez-2377591b6/) |  |
+| 2022 – Summer | Jaqueline Gutierrez | Funded Post-Bac Program, University of Chicago |  |  |
+| 2022 – Summer – 2022 Spring | Steven Proutsos | National Health Core Member | [Steven Proutsos](https://www.linkedin.com/in/steven-proutsos-b69280238/) |  |
+| 2022 - Summer | Octavian Calin-Jageman |  |  |  |
+| 2022 – Summer – 2022 Spring | Emma Gray | Medical School, ATSU | [Emma Gray](https://www.linkedin.com/in/emmasgray/) |  |
+| 2022 – Summer – 2022 Spring | Hannah Danha | Dental Assistant / Need update! | [Hannah Danha](https://www.linkedin.com/in/hannah-danha-6641b1234/) |  |
+| 2022 – Summer – 2023 Summer | Theresa Wilsterman | PhD Program, Rush Medical (also Circus!) | [Theresa Wilsterman](https://www.linkedin.com/in/theresa-wilsterman-7a4206120/) | [@calin-jageman2024; @calin-jageman2024] |
+| 2022 – Summer – 2023 Summer | Zayra Juarez | Graduated, need update! | [Zayra Juarez](https://www.linkedin.com/in/zayra-juarez-207736201/) | [@calin-jageman2024] |
+| 2023 – Summer – 2025 - Summer | Elise Gamino | Graduated, studying for MCAT | [Elise Gamino](https://www.linkedin.com/in/elise-gamino-0baa34387/) | [@calin-jageman2024] |
+| 2023 – Summer – 2025 - Summer | Diana Wittrock | Graduated, need update! | [Diana Wittrock](https://www.linkedin.com/in/diana-wittrock-9170582b9/) | [@calin-jageman2024] |
+| 2022 – Summer – 2023 Summer | Anna Kurkowski | Applying to PA schools | [Anna Kurkowski](https://www.linkedin.com/in/anna-kurkowski-714540144/) | [@calin-jageman2024] |
+| 2022 – Summer – 2023 Summer | Leslie Valdez | In PA School! | [Leslie Valdez](https://www.linkedin.com/in/leslie-valdez-568687249/) | [@calin-jageman2024] |
+| 2022 – Summer – 2023 Summer | Jashui Zarate-Torres | Community organizer with Southwest Suburban Immigrant Project | [Jashui Zarate-Torres](https://www.linkedin.com/in/jashui-z%C3%A1rate-torres-952063208/) | [@calin-jageman2024] |
+| 2022 – Summer – 2023 - Summer | Bryan Gonzalez Delgadillo | Graduated, need update! | [Bryan Gonzalez Delgadillo](https://www.linkedin.com/in/bryan-gonzalez-delgadillo-3ba20a21b/) | [@calin-jageman2024] |
+| 2023 – Summer – 2024 - Summer | Nelly Musajeva | Graduated, applying to graduate programs | [Nelly Musajeva](https://www.linkedin.com/in/nelly-musajeva/) | [@calin-jageman2024] |
+| 2026 - Summer | Carys McFaul | Graduated, applying to med school | [Carys McFaul](https://www.linkedin.com/in/carys-mcfaul-42736138b/) |  |
+| 2025 - Summer - Present | Eli Caron | Not yet graduated | [Eli Caron](https://www.linkedin.com/in/eli-caron-2a0716226/) |  |
+| 2025 Summer | Armin Mrzljak | Graduated, need an update! | Armin Mrzljak |  |
+| 2025 Summer | Charles Kasella | Not yet graduated | [Charles Kasella](https://www.linkedin.com/in/charles-kasella/) |  |
+| 2025 Summer | Karolina Kraj | Graduated, need an update! | [Karolina Kraj](https://www.linkedin.com/in/karolinakraj/) |  |
+| 2026 Summer | Alexa Guzman Villanueva | Not yet graduated | [Alexa Guzman Villanueva](https://www.linkedin.com/in/amgv29/) |  |
+| 2026 Summer | Layla Forrest | Not yet graduated | [Layla Forrest](https://www.linkedin.com/in/layla-forrest/) |  |
+| 2026 Summer | Vanessa Solis | Not yet graduated | [Vanessa Solis](https://www.linkedin.com/in/vanessaesolis/) |  |
+
+: Table of Slug Lab Members {.sortable}
