@@ -1,0 +1,17 @@
+---
+title: Temporal and spatial aspects of an environmental stimulus influence the dynamics
+  of behavioral regulation of the Aplysia siphon-withdrawal response
+date: '2003-01-27T06:08:32'
+categories:
+- Publications - Bob
+---
+
+Calin-Jageman RJ, Fischer TM
+
+Behav. Neurosci. 2003 Jun;117(3):555-65
+
+PMID: [12802884](http://www.ncbi.nlm.nih.gov/pubmed/12802884)
+
+## Abstract
+
+Exposure to turbulence, an environmental stimulus, produces behavioral adaptation in the Aplysia siphon-withdrawal response (SWR). The authors show that the duration and spatial extent of turbulence influence adaptation recovery. In terms of duration, recovery in whole animals and reduced preparations (tail, siphon, and CNS) was more rapid after longer exposures to turbulence (10 min) than after briefer exposures (10 s-5 min). In terms of spatial extent, recovery in reduced preparations was more rapid after diffuse turbulence (tail and siphon together) compared with focal turbulence (siphon alone). Furthermore, spatial extent and duration interact: Duration regulates recovery only when turbulence is diffuse. Results suggest that SWR adaptation reflects a composite of cellular processes, including short-term synaptic enhancement in L30 inhibitory interneurons.

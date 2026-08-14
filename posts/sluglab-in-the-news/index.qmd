@@ -1,0 +1,18 @@
+---
+title: SlugLab in the News!
+date: '2026-05-08T16:19:15'
+categories:
+- News
+- Publications
+- Students
+---
+
+The most recent paper from the SlugLab was written up by *The Transmitter*:
+
+<https://www.thetransmitter.org/memory/new-study-questions-role-of-persistent-gene-activity-in-memory-maintenance/>!
+
+Really exciting to see this level of interest in our work! Big thanks to [Siddhant Pusdekar](https://www.thetransmitter.org/contributor/siddhant-pusdekar/) for the thoughtful interview and writeup.
+
+The article is about our paper last month:
+
+`Rosiles, Tania, Melissa Nguyen, Robert J. Calin-Jageman, and Irina E. Calin-Jageman. “Transcriptional Changes Fade Prior to Long-Term Memory for Sensitization of the Aplysia Siphon-Withdrawal Reflex.” Eneuro, March 9, 2026, ENEURO.0477-25.2026. https://doi.org/10.1523/ENEURO.0477-25.2026.`

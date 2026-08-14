@@ -1,0 +1,49 @@
+---
+title: Qualtrics Tips – A HTML5 and JavaScript Mirror-Tracing Task
+date: '2015-03-10T05:35:32'
+categories:
+- Publications - Bob
+---
+
+\*\*UPDATE\*\*
+
+— I’ve now organized the code for this task and posted it to GitHub:  
+<https://github.com/rcalinjageman/mirror_trace>
+
+And you can try the demo out here:
+
+<https://dom.az1.qualtrics.com/jfe/form/SV_1MsS71ODB4uA7n7>
+
+In GitHub, you’ll find a directory with qualtrics templates. These have been updated and tested; all seems to be working ok with them. Try importing these to qualtrics, and then adapt from there.
+
+Within the templates I posted some explanations about how the code works and what to change to adapt to your purposes. Hope it all makes sense. Basically:
+
+\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+
+Social relationships can confer power on some to control the fates of others. There is a large and growing body of social-psychology research examining the psychological effects of power, with findings documenting profound changes in cognition, motivation, moral reasoning, and more.
+
+One intriguing finding is that having social power can actually improve motor skills. Specifically, Bugmer & Englich (2012) have shown that manipulating power substantially improves power at mini-golf and darts [cite source=’doi’]10.1177/1948550612452014[/cite].
+
+I’ve been working over the past two years to replicate this finding. While it was easy enough to replicate mini-golf with real, live participants, I wanted to test the study online, with a much larger and more diverse pool of participants. But how to measure motor skill online? My solution was to develop an online version of the classic mirror-tracing task, using HTML 5 and Javascript.
+
+A paper describing the results is finally in published [cite source=’doi’]10.1371/journal.pone.0140806[/cite] with three student co-authors:
+
+Cusack, M., Vezenkova, N., Gottschalk, C., & Calin-Jageman, R. J. (2015). Direct and Conceptual Replications of Burgmer & Englich (2012): Power May Have Little to No Effect on Motor Performance. PLOS ONE, 10(11), e0140806. doi:10.1371/journal.pone.0140806, <http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0140806>
+
+Below you can see a sample in action. The top box is the mirror–the bottom box is the drawing pad. Move the mouse into the green target in the drawing pad–this starts the trial. From this point on, you mouse will leave a mirrored trail in the mirror-box. Try to trace to the red target while staying in the line of the figure in the mirror. When you are within the line, the trail will be red–go outside the line and the trail is blue. You’ll see your score as a % of time within the line just below the drawing pad. The trial ends automatically when you reach the green target. **Note that this WordPress theme uses a bunch of white-space—you may need to increase or decrease the zoom on your browser to get both boxes to show within your screen without scrolling**
+
+I kludged this task together even though I’ve never previously written javascript before. I relied heavily on examples found via Google. The final produce works, but could really use a code review both a) to clean up all the horrible on-the-fly decisions I made in getting this to work, and b) to credit the sources I used in taping this together.  Still, there are some cool features to this task:
+
+* The final drawing is saved back to a server as an image, complete with score–this allows you to visually inspect performance to get a feel for how different participants are scoring.
+* The scoring is fully automated.
+* The script runs fine within a Qualtrics survey, and Qualtrics can read the scores back from the script.
+* As expected, I found a consistent negative correlation between performance and age–this indicates the validity of the task and provides a useful covariate for reducing within-subjects noise.
+* As expected, performance improves from first to second-trial.
+* With this task, one can analyze overall performance and performance change across trials (though fatigue seems to set in within a few closely-spaced trials for most participants)
+* Difficulty can be varied by changing line thickness.
+* Any arbitrary line tracing can be uploaded–I matched all mine for number of turns and total line length.
+* It’s a fun task!
+
+If you’d like to adopt this for your own studies, please shoot me an email and I’ll be happy to send you the code and some instructions for how to use it (or you could probably just rip it off directly from this page).  When (if) I get the paper using this task published, I’ll post the reference for citation.
+
+# Mirror Tracing Demo

@@ -1,0 +1,17 @@
+---
+title: Parameter space analysis suggests multi-site plasticity contributes to motor
+  pattern initiation in Tritonia
+date: '2007-07-25T00:00:00'
+categories:
+- Publications - Bob
+---
+
+Calin-Jageman RJ, Tunstall MJ, Mensh BD, Katz PS, Frost WN
+
+J. Neurophysiol. 2007 Oct;98(4):2382-98
+
+PMID: [17652417](http://www.ncbi.nlm.nih.gov/pubmed/17652417)
+
+## Abstract
+
+This research examines the mechanisms that initiate rhythmic activity in the episodic central pattern generator (CPG) underlying escape swimming in the gastropod mollusk Tritonia diomedea. Activation of the network is triggered by extrinsic excitatory input but also accompanied by intrinsic neuromodulation and the recruitment of additional excitation into the circuit. To examine how these factors influence circuit activation, a detailed simulation of the unmodulated CPG network was constructed from an extensive set of physiological measurements. In this model, extrinsic input alone is insufficient to initiate rhythmic activity, confirming that additional processes are involved in circuit activation. However, incorporating known neuromodulatory and polysynaptic effects into the model still failed to enable rhythmic activity, suggesting that additional circuit features are also required. To delineate the additional activation requirements, a large-scale parameter-space analysis was conducted (~2 x 10(6) configurations). The results suggest that initiation of the swim motor pattern requires substantial reconfiguration at multiple sites within the network, especially to recruit ventral swim interneuron-B (VSI) activity and increase coupling between the dorsal swim interneurons (DSIs) and cerebral neuron 2 (C2) coupling. Within the parameter space examined, we observed a tendency for rhythmic activity to be spontaneous and self-sustaining. This suggests that initiation of episodic rhythmic activity may involve temporarily restructuring a nonrhythmic network into a persistent oscillator. In particular, the time course of neuromodulatory effects may control both activation and termination of rhythmic bursting.

@@ -1,0 +1,26 @@
+---
+title: Qualtrics Tips – A HTML5 and JavaScript Word-Search Task
+date: '2015-03-10T21:18:25'
+categories:
+- Publications - Bob
+---
+
+Update – all the code is now posted to github:
+
+* <https://github.com/rcalinjageman/word_search>
+
+This includes a sample qualtrics template you can import to get you started. Here’s the sample qualtrics survey where you can try the task for yourself:
+
+* <https://dom.az1.qualtrics.com/jfe/form/SV_didJZP14WPlvKPX>
+
+\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+
+Here’s a second experimental task I wrote for use with online social psychology experiments. This one is a word search. Again, the code is a series of kludges cobbled together from examples I could findwith Google. But it works out pretty well as a task you can embed in a Qualtrics survey. You can define the grid and the word list as you’d like, and you can have Qualtrics pass parameters that specify which grid and words list to use for a specific participant. It looks nice, and I’ve had good success using this online.
+
+This particular grid is a control grid is a sample I adopted from a book of word searches. It’s a really tough one due to the size of the grid. If you want to see what finding a word looks like without, you know, actually finding a word: “Tradition” starts in the 8th letter of the bottom row.
+
+I have a couple of papers I’m working on that use this task. ~~When either goes to press, I’ll post the reference here for citation.~~  The first one is finally in press, [cite source=’doi’]10.1371/journal.pone.0140806[/cite] with three student co-authors:
+
+Cusack, M., Vezenkova, N., Gottschalk, C., & Calin-Jageman, R. J. (2015). Direct and Conceptual Replications of Burgmer & Englich (2012): Power May Have Little to No Effect on Motor Performance. PLOS ONE, 10(11), e0140806. doi:10.1371/journal.pone.0140806, <http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0140806>
+
+Email me if you’d like the source code, or scrape it directly from this page. The code is a hot mess, but it should be enough to get you started.

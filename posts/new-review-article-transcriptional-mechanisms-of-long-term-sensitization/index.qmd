@@ -1,0 +1,24 @@
+---
+title: 'New Review Article: Transcriptional Mechanisms of Long-Term Sensitization'
+date: '2023-12-12T03:49:31'
+categories:
+- News
+- Publications
+- Publications - Bob
+- Publications - Irina
+- ▼ Publications - Students
+---
+
+Psychologists and neuroscientists have long been fascinated by memory: how do we learn and carry with us new skills and memories? One key insight is that lasting memories require both transcriptional change and neural plasticity.
+
+Much of what we know abou tthe links between transcription and memory has been revealed through the study of long-term sensitization in *Aplysia*.
+
+The sluglab has a a new review paper reviwing what we’ve learned from *Aplysia*, summarizing the state of the art of how sensitization memories are induced, encoded, and maintained . You can check it out here: <https://osf.io/preprints/osf/urxk2>
+
+This review was a lot of work — but also a lot of fun to work on. This is a topic we know well — it’s the main thing the sluglab has studied over the past 15 years. But it was still incredible (and overwhelming) to get a chance to sit down and intensely re-read the many amazing papers that have explored this topic. Pulling it all together was tough, but rewarding; we especially appreciated being able to carefully explain the evidence behind the synchronization model of the induction of sensitization memory that has emerged from recent empirical an computational work.
+
+Writing this review re-newed our appreciation for the incredible work of Gary Philips, the lab of Jack Byrne, Eric Kandel, and the many other folks who have studied sensitization in *Aplysia*. It was a real honor to be asked to write about all this work; we hope we’ve done it justice.
+
+Writing this review was also fun because Theresa Wilsterman (DU class of 2023) worked up some really amazing figures — nice work, Theresa, and congrats on graduating!
+
+Oh – it was also fun to make a preprint of this review using Quarto and RStudio — it was easy to produce a really beautiful document.

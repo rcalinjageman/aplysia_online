@@ -1,0 +1,17 @@
+---
+title: Brain-specific RGS9-2 is localized to the nucleus via its unique proline-rich
+  domain
+date: '2004-01-27T06:07:01'
+categories:
+- Publications - Irina
+---
+
+Bouhamdan M, Michelhaugh SK, Calin-Jageman I, Ahern-Djamali S, Bannon MJ
+
+Biochim. Biophys. Acta 2004 May;1691(2-3):141-50
+
+PMID: [15110994](http://www.ncbi.nlm.nih.gov/pubmed/15110994)
+
+## Abstract
+
+Brain-specific regulator of G protein signaling 9 (RGS9-2) is a member of a family of proteins that can function as GTPase-activating proteins for heterotrimeric G proteins. In the present study, we examined the intracellular distribution of RGS9-2 in native brain tissue and transfected cells. Immunocytochemical and immunoblot experiments revealed an unexpectedly high proportion of RGS9-2 within the nuclei of forebrain neurons. A similar intracellular distribution was seen in transfected COS-7 cells. The RGS9 binding partner G(beta5) further enhanced the nuclear localization of RGS9-2, but did not affect the strongly cytoplasmic localization of RGS9-1, the retinal form of RGS9. Deletion construct analysis revealed that the unique polyproline-rich C-terminus of brain-specific RGS9-2 contains sequences necessary and sufficient to target RGS9 to the nucleus of COS-7 cells, as well as cultured striatal neurons. Furthermore, RGS9-2 transfection increased the transcriptional activity of a neuronal gene construct normally expressed in RGS9-positive neurons, suggesting that nuclear RGS9 directly or indirectly regulates transcription in vivo. The nuclear localization of RGS9-2 suggests a heretofore-unanticipated role for this brain-specific protein in transducing signals to the nuclei of forebrain neurons.

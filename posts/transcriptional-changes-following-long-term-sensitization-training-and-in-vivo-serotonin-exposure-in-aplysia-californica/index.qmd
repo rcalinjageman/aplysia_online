@@ -1,0 +1,18 @@
+---
+title: Transcriptional changes following long-term sensitization training and in vivo
+  serotonin exposure in Aplysia californica
+date: '2012-10-09T00:00:00'
+categories:
+- Publications
+- ▼ Publications - Students
+---
+
+Bonnick K, Bayas K, Belchenko D, Cyriac A, Dove M, Lass J, McBride B, Calin-Jageman IE, Calin-Jageman RJ
+
+PLoS ONE 2012;7(10):e47378
+
+PMID: [23056638](http://www.ncbi.nlm.nih.gov/pubmed/23056638)
+
+## Abstract
+
+We used Aplysia californica to compare the transcriptional changes evoked by long-term sensitization training and by a treatment meant to mimic this training, in vivo exposure to serotonin. We focused on 5 candidate plasticity genes which are rapidly up-regulated in the Aplysia genus by in vivo serotonin treatment, but which have not yet been tested for regulation during sensitization: CREB1, matrilin, antistasin, eIF3e, and BAT1 homolog. CREB1 was rapidly up-regulated by both treatments, but the regulation following training was transient, falling back to control levels 24 hours after training. This suggests some caution in interpreting the proposed role of CREB1 in consolidating long-term sensitization memory. Both matrilin and eIF3e were up-regulated by in vivo serotonin but not by long-term sensitization training. This suggests that in vivo serotonin may produce generalized transcriptional effects that are not specific to long-term sensitization learning. Finally, neither treatment produced regulation of antistasin or BAT1 homolog, transcripts regulated by in vivo serotonin in the closely related Aplysia kurodai. This suggests either that these transcripts are not regulated by experience, or that transcriptional mechanisms of memory may vary within the Aplysia genus.

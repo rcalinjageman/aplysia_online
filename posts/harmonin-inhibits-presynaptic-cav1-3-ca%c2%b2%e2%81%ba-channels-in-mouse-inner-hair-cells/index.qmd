@@ -1,0 +1,16 @@
+---
+title: Harmonin inhibits presynaptic Cav1.3 Ca²⁺ channels in mouse inner hair cells
+date: '2011-08-07T00:00:00'
+categories:
+- Publications - Irina
+---
+
+Gregory FD, Bryan KE, Pangršič T, Calin-Jageman IE, Moser T, Lee A
+
+Nat. Neurosci. 2011 Sep;14(9):1109-11
+
+PMID: [21822269](http://www.ncbi.nlm.nih.gov/pubmed/21822269)
+
+## Abstract
+
+Harmonin is a scaffolding protein that is required for normal mechanosensory function in hair cells. We found a presynaptic association of harmonin and Ca(v)1.3 Ca(2+) channels at the mouse inner hair cell synapse, which limits channel availability through a ubiquitin-dependent pathway.

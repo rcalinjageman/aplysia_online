@@ -1,0 +1,16 @@
+---
+title: Ca(v)1 L-type Ca2+ channel signaling complexes in neurons
+date: '2008-02-07T00:00:00'
+categories:
+- Publications - Irina
+---
+
+Calin-Jageman I, Lee A
+
+J. Neurochem. 2008 May;105(3):573-83
+
+PMID: [18266933](http://www.ncbi.nlm.nih.gov/pubmed/18266933)
+
+## Abstract
+
+Ca(v)1 L-type Ca2+ channels play crucial and diverse roles in the nervous system. The pre- and post-synaptic functions of Ca(v)1 channels not only depend on their intrinsic biophysical properties but also their dynamic regulation by a host of cellular influences. These include protein kinases and phosphatases, G-protein coupled receptors, scaffolding proteins, and Ca2+-binding proteins. The cytoplasmic domains of the main pore forming alpha(1) subunit of Ca(v)1 offer a number of binding sites for these modulators, permitting fast and localized regulation of Ca2+ entry. Through effects on Ca(v)1 gating, localization, and coupling to effectors, protein modulators are efficiently positioned to adjust Ca(v)1 Ca2+ signals that control neuronal excitability, synaptic plasticity, and gene expression.

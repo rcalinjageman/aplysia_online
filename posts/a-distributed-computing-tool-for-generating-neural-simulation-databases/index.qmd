@@ -1,0 +1,16 @@
+---
+title: A distributed computing tool for generating neural simulation databases
+date: '2006-01-27T06:08:33'
+categories:
+- Publications - Bob
+---
+
+Calin-Jageman RJ, Katz PS
+
+Neural Comput 2006 Dec;18(12):2923-7
+
+PMID: [17052151](http://www.ncbi.nlm.nih.gov/pubmed/17052151)
+
+## Abstract
+
+After developing a model neuron or network, it is important to systematically explore its behavior across a wide range of parameter values or experimental conditions, or both. However, compiling a very large set of simulation runs is challenging because it typically requires both access to and expertise with high-performance computing facilities. To lower the barrier for large-scale model analysis, we have developed NeuronPM, a client/server application that creates a “screen-saver” cluster for running simulations in NEURON (Hines & Carnevale, 1997). NeuronPM provides a user-friendly way to use existing computing resources to catalog the performance of a neural simulation across a wide range of parameter values and experimental conditions. The NeuronPM client is a Windows-based screen saver, and the NeuronPM server can be hosted on any Apache/PHP/MySQL server. During idle time, the client retrieves model files and work assignments from the server, invokes NEURON to run the simulation, and returns results to the server. Administrative panels make it simple to upload model files, define the parameters and conditions to vary, and then monitor client status and work progress. NeuronPM is open-source freeware and is available for download at http://neuronpm.homeip.net . It is a useful entry-level tool for systematically analyzing complex neuron and network simulations.

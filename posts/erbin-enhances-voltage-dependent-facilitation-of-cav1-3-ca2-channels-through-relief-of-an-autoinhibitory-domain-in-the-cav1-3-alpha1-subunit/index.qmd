@@ -1,0 +1,17 @@
+---
+title: Erbin enhances voltage-dependent facilitation of Ca(v)1.3 Ca2+ channels through
+  relief of an autoinhibitory domain in the Ca(v)1.3 alpha1 subunit
+date: '2007-01-27T06:07:00'
+categories:
+- Publications - Irina
+---
+
+Calin-Jageman I, Yu K, Hall RA, Mei L, Lee A
+
+J. Neurosci. 2007 Feb;27(6):1374-85
+
+PMID: [17287512](http://www.ncbi.nlm.nih.gov/pubmed/17287512)
+
+## Abstract
+
+Ca(v)1.3 (L-type) voltage-gated Ca2+ channels have emerged as key players controlling Ca2+ signals at excitatory synapses. Compared with the more widely expressed Ca(v)1.2 L-type channel, relatively little is known about the mechanisms that regulate Ca(v)1.3 channels. Here, we describe a new role for the PSD-95 (postsynaptic density-95)/Discs large/ZO-1 (zona occludens-1) (PDZ) domain-containing protein, erbin, in directly potentiating Ca(v)1.3. Erbin specifically forms a complex with Ca(v)1.3, but not Ca(v)1.2, in transfected cells. The significance of erbin/Ca(v)1.3 interactions is supported by colocalization in somatodendritic domains of cortical neurons in culture and coimmunoprecipitation from rat brain lysates. In electrophysiological recordings, erbin augments facilitation of Ca(v)1.3 currents by a conditioning prepulse, a process known as voltage-dependent facilitation (VDF). This effect requires a direct interaction of the erbin PDZ domain with a PDZ recognition site in the C-terminal domain (CT) of the long variant of the Ca(v)1.3 alpha1 subunit (alpha1 1.3). Compared with Ca(v)1.3, the Ca(v)1.3b splice variant, which lacks a large fraction of the alpha1 1.3 CT, shows robust VDF that is not further affected by erbin. When coexpressed as an independent entity with Ca(v)1.3b or Ca(v)1.3 plus erbin, the alpha1 1.3 CT strongly suppresses VDF, signifying an autoinhibitory function of this part of the channel. These modulatory effects of erbin, but not alpha1 1.3 CT, depend on the identity of the auxiliary Ca2+ channel beta subunit. Our findings reveal a novel mechanism by which PDZ interactions and alternative splicing of alpha1 1.3 may influence activity-dependent regulation of Ca(v)1.3 channels at the synapse.

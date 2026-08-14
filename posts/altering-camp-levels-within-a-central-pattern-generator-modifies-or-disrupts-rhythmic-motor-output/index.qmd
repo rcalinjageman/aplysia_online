@@ -1,0 +1,17 @@
+---
+title: Altering cAMP levels within a central pattern generator modifies or disrupts
+  rhythmic motor output
+date: '2007-10-31T00:00:00'
+categories:
+- Publications - Bob
+---
+
+Clemens S, Calin-Jageman R, Sakurai A, Katz PS
+
+J. Comp. Physiol. A Neuroethol. Sens. Neural. Behav. Physiol. 2007 Dec;193(12):1265-71
+
+PMID: [17972082](http://www.ncbi.nlm.nih.gov/pubmed/17972082)
+
+## Abstract
+
+Cyclic AMP is a second messenger that has been implicated in the neuromodulation of rhythmically active motor patterns. Here, we tested whether manipulating cAMP affects swim motor pattern generation in the mollusc, Tritonia diomedea. Inhibiting adenylyl cyclase (AC) with 9-cyclopentyladenine (9-CPA) slowed or stopped the swim motor pattern. Inhibiting phosphodiesterase with 3-isobutyl-1-methylxanthine (IBMX) or applying dibutyryl-cAMP (dB-cAMP) disrupted the swim motor pattern, as did iontophoresing cAMP into the central pattern generator neuron C2. Additionally, during wash-in, IBMX sometimes temporarily produced extended or spontaneous swim motor patterns. Photolysis of caged cAMP in C2 after initiation of the swim motor pattern inhibited subsequent bursting. These results suggest that cAMP levels can dynamically modulate swim motor pattern generation, possibly shaping the output of the central pattern generator on a cycle-by-cycle basis.

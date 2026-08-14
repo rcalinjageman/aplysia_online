@@ -1,0 +1,23 @@
+---
+title: Sluglab Strikes Again – New paper tracing dynamics of learning-induced changes
+  in transcription
+date: '2014-12-12T19:21:52'
+categories:
+- News
+- Publications
+- Publications - Bob
+- Publications - Irina
+- Students
+- ▼ Publications - Students
+---
+
+A nice way to wrap up 2014–we have a new paper out [cite source=’pubmed’]25486125[/cite] where we trace learning-induced changes in transcription over time and over different location in the CNS. We think it’s a nice follow-up to the microarray paper, because:
+
+- We show that some transcriptional changes are likely occuring in interneurons and motor neurons, not just in the VC nociceptive sensory neurons.
+- We found some transcripts which, like Egr, are rapidly \*and\* persistently up-regulated by sensitization training (GlyT2, VPS36, and an uncharacterized protein known for now as LOC101862095). We’re interested in such transcripts because they could be related to memory maintenance
+- We were able to better test the notion that CREB supports memory maintenance. So far, our evidence continues to go against this hypothesis, with no long-lasting changes detected in the VC sensory neurons nor in the pedal ganglia.
+- As a methodological point, we found that microdissecting out the VC cluster really really improves signal:noise for identifying transcriptional changes induced by learning. This is exciting–most work on the molecular mechanisms of memory uses tissue samples representing homogenous cell types. Zooming in on a single cell type of known relevance for storing the memory really enhances the power of the analysis.
+- We re-rested the four novel transcripts identified in our microarray paper from earlier this year [cite source=’pubmed’]25117657[/cite]. All four validated again! Moreover, all 4 were specifically up-regulated in the VC nociceptors (and some elsewhere as well). Another good indication that we’re on the right track with our microarray approach.
+- Another 3 student co-authors on this paper! We’re especially proud of Sami, Catherine, and Saman.
+
+The paper is free on PLOSE ONE: [http://dx.plos.org/10.1371/journal.pone.0114481](http://dx.plos.org/10.1371/journal.pone.0114481 "Herdegen et al., 2014b"). Also, you can download our raw data to examine for yourself at the Open Science Framework: <https://osf.io/ts9ea/>.

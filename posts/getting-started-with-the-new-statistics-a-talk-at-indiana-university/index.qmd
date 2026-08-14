@@ -1,0 +1,11 @@
+---
+title: Getting Started with the New Statistics – A talk at Indiana University
+date: '2017-10-01T18:21:18'
+categories:
+- News
+- Publications - Bob
+---
+
+This fall I (Bob) was invited to give a talk at Indiana University as part of a series on good science and statistical practice organized by the university’s [Social Science Research Commons](https://ssrc.indiana.edu/seminars/wim/2017-2018.html) (which is like a core facility for getting advice on statistics and experimental design…what a cool thing for a university to have!).
+
+I really enjoyed my visit (thanks Emily, Cami, and Patricia)–good conversation with fascinating people in a beautiful setting.  The series has a video archive, so my talk is now posted online as a video and as a powerpoint. Here’s the link–take a look if you want to know more about how to get started using Open Science practices and the New Statistics:  <https://media.dlib.indiana.edu/media_objects/gt54kp23k>

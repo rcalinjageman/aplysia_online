@@ -1,17 +1,17 @@
 ---
-title: "Where have you gone, early transcriptional changes?"
-author: "Bob Calin-Jageman"
-date: "2026-03-30"
-categories: [Research]
-bibliography: references.bib
-image: "image.png"
+title: Where have you gone, early transcriptional changes?
+date: '2026-03-30T13:49:18'
+categories:
+- News
+- Publications
+- Publications - Bob
+- Publications - Irina
+- ▼ Publications - Students
 ---
 
 The slug lab has a new paper out, again with student co-authors (Tania Rosiles and Melissa Nguyen, congrats!):
 
-Rosiles, Tania, Melissa Nguyen, Robert J. Calin-Jageman, and Irina E.Calin-Jageman. 2026. “Transcriptional Changes Fade Prior toLong-Term Memory for Sensitization of the *Aplysia*Siphon-Withdrawal Reflex.” *Eneuro*, March 9,ENEURO.0477–25.2026. <https://doi.org/10.1523/ENEURO.0477-25.2026>.
-
-[@rosiles2026a]
+`Rosiles, Tania, Melissa Nguyen, Robert J. Calin-Jageman, and Irina E. Calin-Jageman. “Transcriptional Changes Fade Prior to Long-Term Memory for Sensitization of the Aplysia Siphon-Withdrawal Reflex.” Eneuro, March 9, 2026, ENEURO.0477-25.2026. https://doi.org/10.1523/ENEURO.0477-25.2026.`
 
 It was a *long* road for this project… we started it in 2016! But with Covid and lots of other disruptions it took a long while to all the way to publication. Time for some well-aged champagne.
 

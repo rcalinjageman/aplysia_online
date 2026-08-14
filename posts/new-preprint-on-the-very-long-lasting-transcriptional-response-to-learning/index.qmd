@@ -1,0 +1,12 @@
+---
+title: New preprint on the very long-lasting transcriptional response to learning
+date: '2018-08-18T19:52:03'
+categories:
+- News
+- Publications - Irina
+- ▼ Publications - Students
+---
+
+The sluglab has a new preprint out, currently under review at the *Neurobiology of Learning and Memory.* We shows that both transcription and savings can persist for as long as 2 weeks after the induction of long-term sensitization, way beyond the decay of recall.  Interestingly, all the long-lasting transcriptional changes start within 1 day of training.  Lots of student co-authors on this one; it was a \*lot\* of work.  Looking forward to the reviews.
+
+* <https://psyarxiv.com/vurk5/>

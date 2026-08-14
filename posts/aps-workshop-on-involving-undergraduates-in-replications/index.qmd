@@ -1,0 +1,12 @@
+---
+title: APS Workshop on Involving Undergraduates in Replications
+date: '2016-06-22T15:23:37'
+categories:
+- Publications - Bob
+---
+
+I had the pleasure of presenting with Geoff Cumming, John Grahe, and Fiona Fidler at this year’s APS meeting on the topic of involving students in replication projects (also, our discussant was Rebecca Saxe, who was terrific).
+
+For my presentation I tried to collect together what I’ve learned from supervising student replication efforts. I especially tried to emphasize the benefits of using positive controls in psychology research to help make replication data (or any data for that matter) more interpretable.
+
+In developing the talk it dawned on me that it would be useful to collect materials together to walk students through the process of developing a replication project. So I created a project page on the Open Science Framework where I’ve put together a bunch of resources for selecting projects, developing materials, including positive controls, etc. It’s all available on the OSF here: <https://osf.io/jx2td/>

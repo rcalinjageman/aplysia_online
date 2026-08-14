@@ -1,0 +1,19 @@
+---
+title: 'Research lemonade: RRR on the short-term benefits of emotional reappraisal
+  interventions in an online context'
+date: '2021-09-15T13:19:00'
+categories:
+- Publications - Bob
+---
+
+When the pandemic hit, all in-person research was shut down at Dominican (of course). This left a real challenge in terms of trying to figure out how our psychology majors could continue to engage in authentic and interesting research.
+
+One solution I (Bob) worked on during the summer of 2020 was to assemble a collection of studies that would be a) socially relevant, and b) feasible to replicate and extend fully online (https://osf.io/xnuap/). This worked out really well for our research methods sequence.
+
+I also worked with colleague TJ Krafnick on another approach: getting DU involved in some RRR projects (registered replication reports). Specifically, TJ and I applied to take part in a massive RRR organized by the psychological science accelerator (https://psysciacc.org/). What was especially exciting about this RRR was that it featured a trio of experiments, each designed to test online interventions to help modify emotional/behavioral responses to the Covid-19 pandemic (https://psysciacc.org/studies/psacr-1-2-3/). TJ and I obtained local IRB approval, and then we worked with our research methods students to collect data at DU. Students in my fall 2020 research and methods course then analyzed the data from our DU and wrote it up for their semester-long term projects. It was a really good experience for the class; we turned lemons into lemonade.
+
+Now the psych science accelerator has assembled the data from all the team sites and published the manuscript for the first project ​(Wang et al., 2021)​. TJ and I are proud to be co-authors in a very long-list of talented collaborators (reading through the Google docs of draft proposals and manuscripts was incredible–at times, the manuscripts were probably more comment than actual text!).
+
+So what was the actual study and what did it find? Participants (N > 23,000!) were randomly assigned to receive either a brief training in an emotional regulation strategy (reappraisal or reconstrual) or to a control condition. Participants were then asked to rate their positive and negative emotions in response to a series of genuinely heartbreaking images related to the Covid-19 pandemic. There were clear and consistent effects of the interventions on self-reported emotions: participants who received the training reported more positive emotions (d = -0.59!) and fewer negative emotions (d = -0.39) in response to the photos. This was true across essentially all study sites regardless of language or culture. That’s pretty amazing! On the other hand, the intervention was short term, and the dependent variable relied entirely on self-reported emotional responses, which might not be very reliable and which could be susceptible to demand effects from the study. Still, an encouraging win for emotional re-appraisal strategies.
+
+1. Wang, K., Goldenberg, A., Dorison, C., Miller, J., Uusberg, A., Lerner, J., … Moshontz, H. (2021). A multi-country test of brief reappraisal interventions on emotions during the COVID-19 pandemic. *Nature Human Behaviour*, *5*(8), 1089–1110. doi: [10.1038/s41562-021-01173-x](https://doi.org/10.1038/s41562-021-01173-x)

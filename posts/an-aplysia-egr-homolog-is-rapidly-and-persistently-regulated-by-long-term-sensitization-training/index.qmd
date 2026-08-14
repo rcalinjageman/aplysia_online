@@ -1,0 +1,18 @@
+---
+title: An Aplysia Egr homolog is rapidly and persistently regulated by long-term sensitization
+  training
+date: '2013-04-06T00:00:00'
+categories:
+- Publications
+- ▼ Publications - Students
+---
+
+Cyriac A, Holmes G, Lass J, Belchenko D, Calin-Jageman RJ, Calin-Jageman IE
+
+Neurobiol Learn Mem 2013 May;102:43-51
+
+PMID: [23567107](http://www.ncbi.nlm.nih.gov/pubmed/23567107)
+
+## Abstract
+
+The Egr family of transcription factors plays a key role in long-term plasticity and memory in a number of vertebrate species. Here we identify and characterize ApEgr (GenBank: KC608221), an Egr homolog in the marine mollusk Aplysia californica. ApEgr codes for a predicted 593-amino acid protein with the highly conserved trio of zinc-fingered domains in the C-terminus that characterizes the Egr family of transcription factors. Promoter analysis shows that the ApEgr protein selectively recognizes the GSG motif recognized by vertebrate Egrs. Like mammalian Egrs, ApEgr is constitutively expressed in a range of tissues, including the CNS. Moreover, expression of ApEgr is bi-directionally regulated by changes in neural activity. Of most interest, the association between ApEgr function and memory may be conserved in Aplysia, as we observe rapid and long-lasting up-regulation of expression after long-term sensitization training. Taken together, our results suggest that Egrs may have memory functions that are conserved from mammals to mollusks.

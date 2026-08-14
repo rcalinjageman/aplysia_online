@@ -1,0 +1,16 @@
+---
+title: Characterization of a chlorella virus PBCV-1 encoded ribonuclease III
+date: '2003-01-27T06:07:01'
+categories:
+- Publications - Irina
+---
+
+Zhang Y, Calin-Jageman I, Gurnon JR, Choi TJ, Adams B, Nicholson AW, Van Etten JL
+
+Virology 2003 Dec;317(1):73-83
+
+PMID: [14675626](http://www.ncbi.nlm.nih.gov/pubmed/14675626)
+
+## Abstract
+
+Sequence analysis of the 330-kb genome of chlorella virus PBCV-1 revealed an open reading frame, A464R, which encodes a protein with 30-35% amino acid identity to ribonuclease III (RNase III) from many bacteria. The a464r gene was cloned and the protein was expressed in Escherichia coli using the chitin-binding intein system. The recombinant PBCV-1 RNase III cleaves model dsRNA substrates, in a Mg(2+)-dependent manner, into a defined set of products. The substrate cleavage specificity overlaps, but is nonidentical to that of E. coli RNase III. The a464r gene is expressed very early during PBCV-1 infection, within 5-10 min p.i. The RNase III protein appears at 15 min p.i. and disappears by 120 min p.i. The a464r gene is highly conserved among the chlorella viruses. Phylogenetic analyses indicate that the PBCV enzyme is most closely related to Mycoplasma pneumoniae RNase III.

@@ -1,0 +1,10 @@
+---
+title: New Publication on ERIN, Educational Resources in Neuroscience
+date: '2015-05-26T19:41:42'
+categories:
+- Publications - Bob
+---
+
+Just after I started at Dominican in 2007 I had the good fortune to team up with Richard Olivo to help in the development of ERIN, an online curated database of educational resources for neuroscience. It was a long process, but ERIN has now been online for the past three years serving up great resources to faculty prepping their activities for neuroscience courses. You can take a spin for yourself at <http://erin.sfn.org/>.
+
+To cap off our efforts with ERIN, Richard took the leading in writing up an article for JUNE, the Journal of Neuroscience Education. You can find it online here: [cite source=’pubmed’]26240519[/cite].

@@ -1,0 +1,49 @@
+---
+title: Red, Romance, and Replication – Cross posted with thenewstatistics.com
+date: '2017-08-21T16:15:16'
+categories:
+- News
+- Publications - Bob
+---
+
+I (Bob) have a n[ew replication paper out today](http://econtent.hogrefe.com/doi/10.1027/1864-9335/a000296), a collaboration with DU student Elle Lehmann (Lehmann & Calin-Jageman, 2017).  The OSF page for the paper with all the materials and data is here: <https://osf.io/j3fyq/> (Calin-Jageman & Lehmann, 2015).
+
+The paper replicates a set of previous findings showing that the color red dramatically increases romantic attraction for both women rating men (A. J. Elliot et al., 2010) and men rating women (A. Elliot & Niesta, 2008).  Elle and I conducted two replications: one in-person with a standard psychology participant pool, the other online with MTurk participants.  In each case we planned for an informative sample, used original materials, pre-registered our design and analysis plan, and used extensive exclusion criteria to ensure suitable participants (e.g. testing for color-blindness).  In both cases, we are sad to report that there was little-to-no effect of red on perceived attractiveness or desired sexual behavior.
+
+![](https://3c1703fe8d.site.internapcdn.net/newman/gfx/news/hires/2008/psychologica.jpg)
+
+*Example of the types of stimuli used in red-romance studies (not the actual stimuli we used, though)*
+
+There were a few weaknesses: 1) for the in-person study we didn’t obtain nearly enough men to make a good test of the hypothesis, 2) for the online study we couldn’t control the exact parameters for the color red.  Still, we found no strong evidence that incidental red influences perceived attractiveness.
+
+**Beyond the (disappointing) replication results, there are some really interesting developments to this story:**
+
+* Our replication work drew the attention of science journalist Dalmeet Singh who wrote a [cool article summarizing the field and our contribution for Slate](http://www.slate.com/articles/health_and_science/science/2017/05/don_t_wear_red_in_your_online_dating_profile.html).  Dalmeet has made covering negative results a part of his beat–how great is that!
+* There have been some questions about these studies almost from the start.  Greg Francis highlighted the fact that the original study of women rating men by Elliot & Niesta (2008) is just too good to be true–every study was statistically significant despite very low power, something that ought not to regularly happen (Francis, 2013).
+* Although there have been some studies showing red effects (though often in subgroups or only with some DVs), there is a growing number of studies reporting little-to-no effect of red manipulations on attraction: (Hesslinger, Goldbach, & Carbon, 2015)(Peperkoorn, Roberts, & Pollet, 2016)(Seibt, 2015)(Lynn, Giebelhausen, Garcia, Li, & Patumanon, 2013)(Kirsch, 2015) plus a whole raft of student-led precise replications that were part of the CREP project (Grahe et al., 2012): <https://osf.io/ictud/>
+* To help make sense of the data, Elle and I embarked on conducting a meta-analysis.  It has turned out to be a **very big** project.  We hope we’re nearly ready for submission.
+* Andrew Elliot, the original investigator, was extremely helpful in assisting with this replication.  Then, as the meta-analysis progressed, he became even more involved and has now joined the project as a co-author.  The project’s still not complete yet, but I’ve really enjoyed working with him, and I’m proud that this will (hopefully) become an example of how collegial and productive replication work can be towards better and more cumulative science.
+
+### References
+
+Calin-Jageman, R., & Lehmann, G. (2015). Romantic Red – Registered Replications of effect of Red on Attractiveness (Elliot & Niesta, 2008; Elliot et al. 2010). Open Science Framework. <https://doi.org/10.17605/osf.io/j3fyq> [[Source](https://osf.io/j3fyq/)]
+
+Elliot, A. J., Niesta Kayser, D., Greitemeyer, T., Lichtenfeld, S., Gramzow, R. H., Maier, M. A., & Liu, H. (2010). Red, rank, and romance in women viewing men. *Journal of Experimental Psychology: General*, *139*(3), 399–417. <https://doi.org/10.1037/a0019689>
+
+Elliot, A., & Niesta, D. (2008). Romantic red: red enhances men’s attraction to women. *Journal of Personality and Social Psychology*, *95*(5), 1150–64. [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/18954199)]
+
+Francis, G. (2013). Publication bias in “Red, rank, and romance in women viewing men,” by Elliot et al. (2010). *Journal of Experimental Psychology. General*, *142*(1), 292–6. [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/23398185)]
+
+Grahe, J. E., Reifman, A., Hermann, A. D., Walker, M., Oleson, K. C., Nario-Redmond, M., & Wiebe, R. P. (2012). Harnessing the Undiscovered Resource of Student Research Projects. *Perspectives on Psychological Science*, *7*(6), 605–607. <https://doi.org/10.1177/1745691612459057>
+
+Hesslinger, V. M., Goldbach, L., & Carbon, C.-C. (2015). Men in red: A reexamination of the red-attractiveness effect. *Psychonomic Bulletin & Review*, *22*(4), 1142–1148. <https://doi.org/10.3758/s13423-015-0866-8>
+
+Kirsch, F. (2015). *Wahrgenommene Attraktivität und sexuelle Orientierung*. Springer Fachmedien Wiesbaden. <https://doi.org/10.1007/978-3-658-08405-9>
+
+Lehmann, G. K., & Calin-Jageman, R. J. (2017). Is Red Really Romantic? *Social Psychology*, *48*(3), 174–183. <https://doi.org/10.1027/1864-9335/a000296>
+
+Lynn, M., Giebelhausen, M., Garcia, S., Li, Y., & Patumanon, I. (2013). Clothing Color and Tipping. *Journal of Hospitality & Tourism Research*, *40*(4), 516–524. <https://doi.org/10.1177/1096348013504001>
+
+Peperkoorn, L. S., Roberts, S. C., & Pollet, T. V. (2016). Revisiting the Red Effect on Attractiveness and Sexual Receptivity. *Evolutionary Psychology*, *14*(4), 147470491667384. <https://doi.org/10.1177/1474704916673841>
+
+Seibt, T. (2015). Romantic Red Effect in the Attractiveness Perception. In *Proceedings of The 3rd Human and Social Sciences at the Common Conference*. Publishing Society. <https://doi.org/10.18638/hassacc.2015.3.1.186>

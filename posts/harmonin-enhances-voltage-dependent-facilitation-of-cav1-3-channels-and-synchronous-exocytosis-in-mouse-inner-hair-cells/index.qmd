@@ -1,0 +1,17 @@
+---
+title: Harmonin enhances voltage-dependent facilitation of Cav1.3 channels and synchronous
+  exocytosis in mouse inner hair cells
+date: '2013-01-22T00:00:00'
+categories:
+- Publications - Irina
+---
+
+Gregory FD, Pangrsic T, Calin-Jageman IE, Moser T, Lee A
+
+J. Physiol. (Lond.) 2013 Jul;591(Pt 13):3253-69
+
+PMID: [23613530](http://www.ncbi.nlm.nih.gov/pubmed/23613530)
+
+## Abstract
+
+Cav1.3 channels mediate Ca(2+) influx that triggers exocytosis of glutamate at cochlear inner hair cell (IHC) synapses. Harmonin is a PDZ-domain-containing protein that interacts with the C-terminus of the Cav1.3 α1 subunit (α11.3) and controls cell surface Cav1.3 levels by promoting ubiquitin-dependent proteosomal degradation. However, PDZ-domain-containing proteins have diverse functions and regulate other Cav1.3 properties, which could collectively influence presynaptic transmitter release. Here, we report that harmonin binding to the α11.3 distal C-terminus (dCT) enhances voltage-dependent facilitation (VDF) of Cav1.3 currents both in transfected HEK293T cells and in mouse inner hair cells. In HEK293T cells, this effect of harmonin was greater for Cav1.3 channels containing the auxiliary Cav β1 than with the β2 auxiliary subunit. Cav1.3 channels lacking the α11.3 dCT were insensitive to harmonin modulation. Moreover, the ‘deaf-circler’ dfcr mutant form of harmonin, which does not interact with the α11.3 dCT, did not promote VDF. In mature IHCs from mice expressing the dfcr harmonin mutant, Cav1.3 VDF was less than in control IHCs. This difference was not observed between control and dfcr IHCs prior to hearing onset. Membrane capacitance recordings from dfcr IHCs revealed a role for harmonin in synchronous exocytosis and in increasing the efficiency of Ca(2+) influx for triggering exocytosis. Collectively, our results indicate a multifaceted presynaptic role of harmonin in IHCs in regulating Cav1.3 Ca(2+) channels and exocytosis.

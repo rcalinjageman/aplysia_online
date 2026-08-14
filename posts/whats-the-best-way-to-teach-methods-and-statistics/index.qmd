@@ -1,0 +1,10 @@
+---
+title: What’s the best way to teach methods and statistics?
+date: '2015-05-26T19:44:48'
+categories:
+- Publications - Bob
+---
+
+No easy answer, but I’m co-author on a new paper that has some hints [cite source=’doi’]10.1177/0098628315573139[/cite]. Well, actually, it’s just a summary of some assessment data my department has been collecting to help evaluate an integrated and inquiry-based approach to teaching methods and stats. We provide lots of opportunities for apprenticeship, with student completing independent correlational and experimental projects across a 2-semester sequence. Currently, we’re using Nolan & Heinzen as a stats text, but I’m hoping that we’ll be using Cumming & Calin-Jageman by 2017.
+
+Pliske, R. M., Caldwell, T. L., Calin-jageman, R. J., & Taylor-ritzler, T. (2015). Demonstrating the Effectiveness of an Integrated and Intensive Research Methods and Statistics Course Sequence. doi:10.1177/0098628315573139

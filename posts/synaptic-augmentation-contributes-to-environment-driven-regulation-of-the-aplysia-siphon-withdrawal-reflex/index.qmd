@@ -1,0 +1,17 @@
+---
+title: Synaptic augmentation contributes to environment-driven regulation of the aplysia
+  siphon-withdrawal reflex
+date: '2003-01-27T06:08:32'
+categories:
+- Publications - Bob
+---
+
+Calin-Jageman RJ, Fischer TM
+
+J. Neurosci. 2003 Dec;23(37):11611-20
+
+PMID: [14684863](http://www.ncbi.nlm.nih.gov/pubmed/14684863)
+
+## Abstract
+
+This research shows that short-term synaptic plasticity can play a critical role in shaping the behavioral response to environmental change. In Aplysia, exposure to turbulent environments produces a stable reduction in the duration of the siphon-withdrawal reflex (SWR) and the responsiveness of siphon motor neurons. Recovery takes >1 min after a brief (10 sec-5 min) exposure but <1 min after a long (10 min) exposure. Here we demonstrate that (1) in-turbulence and post-turbulence phases of regulation depend on different cellular processes and (2) the post-turbulence phase of regulation is mediated by augmentation (AUG), an activity-dependent form of short-term synaptic plasticity. In reduced preparations (tail, siphon, and CNS), we show that treatment with 100 microm d-tubocurarine has no effect on in-turbulence regulation but blocks up to 90% of post-turbulence regulation, indicating that these phases of regulation are mediated by distinct cellular process. We then show that (1) turbulence induces activity in L30 inhibitory interneurons, (2) this activation produces AUG that lasts 1 min after a brief exposure to turbulence, and (3) manipulations that attenuate L30 AUG also attenuate regulation after brief turbulence. We also found that long (10 min) exposures to turbulence do not produce a post-turbulence phase of regulation because L30 activity declines over the course of a long turbulence exposure, leading to the decay of AUG before turbulence offset. Our results demonstrate a specific behavioral function of AUG and show how interactions between cellular processes can confer temporal sensitivity in the network regulation of behavior.

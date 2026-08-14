@@ -1,0 +1,17 @@
+---
+title: New Publication – Microarray analysis of sensitization
+date: '2014-08-24T12:56:02'
+categories:
+- News
+- Publications
+- Publications - Bob
+- Publications - Irina
+- Students
+- ▼ Publications - Students
+---
+
+We’ve got a new paper out [cite source=’pubmed’]25117657[/cite] with the first of what we hope will be a series of studies using microarray to track the transcriptional changes following long-term sensitization training. This paper looks at the changes that occur immediately (1 hour) after training. It provides lots of details and data to validate the microarray design we developed, but also identifies a set of 81 transcripts that are strongly regulated after learning. Best of all, for a microarray paper, we use a large sample size (n = 8) and show using a subset of transcripts that most generalize to a completely independent sample. Among the changes we fully validated are up-regulation of a c/ebp-gamma (what the what!?), a glycine transporter, and a subunit of ESCRTII. The rest of the gene list that we’re working on has some exciting possibilities, too.
+
+Another thing to be proud of, is our three student co-authors on the paper.
+
+The paper is free for the next 50 days via [this link](http://authors.elsevier.com/a/1PabZ3qNa9iMVH "this link"), then it goes behind a paywall for 305 days, then it will be in PubMedCentral for free again (strange, right?). All the raw data is available on the Open Science Framework: <https://osf.io/8pgfh/>.

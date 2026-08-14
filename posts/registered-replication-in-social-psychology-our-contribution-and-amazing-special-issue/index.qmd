@@ -1,0 +1,13 @@
+---
+title: Registered Replication In Social Psychology – Our contribution and amazing
+  special issue
+date: '2014-05-12T19:23:46'
+categories:
+- Publications - Bob
+---
+
+Tracy Caldwell and I have a new paper out which we’re very proud of [cite source=’doi’]10.1027/1864-9335/a000190[/cite]–a registered replication of a previous finding that superstition can cause a substantial improvement in skilled performance [cite source=’doi’]10.1177/0956797610372631[/cite].
+
+We conducted 2 high-power and extremely precise replication attempts of this finding, pre-registered our design, sample targets, and analysis in advance. What we found was disappointing–performance did not strongly improve in the superstition conditions despite successful manipulation of feelings of luck. But the overall approach of conducting registered replications–well, that was a real treat.
+
+We’re especially proud that the paper is in a special issue dedicated just to registered replications of social psychology. We will also be presenting the paper at a Social Psych conference in Amsterdam this summer!

@@ -1,0 +1,32 @@
+---
+title: Updated word search and mirror-tracing tasks for Qualtrics
+date: '2019-05-17T18:17:13'
+categories:
+- News
+- Publications - Bob
+---
+
+I finally had some spare time to document and post the mirror tracing and word-search tasks I developed for some replication work my students and I completed ​(Cusack, Vezenkova, Gottschalk, & Calin-Jageman, 2015)​.
+
+Each task is (I think) pretty nifty, and I’ve had lots of emails about them over the past couple of years. I’ve finally posted both code bases to github along with working demos in Qualtrics and some rudimentary instructions. The code itself is not pretty–I was learning javascript and wrote most it during a conference I was attending in Amsterdam. Still, it works, and I’m sure it could come in handy.
+
+The mirror-tracing task is just like it sounds–participants trace an image with their mouse or track pad but the mouse movements are mirrored, making it hard to stay in the line. You can vary task difficulty by changing line thickness. There is an expected weak negative correlation with age. The script can even posts the traced images back to your server, which is cool for making figures showing how groups differ with representative data.
+
+* On Github:   
+  <https://github.com/rcalinjageman/mirror_trace>
+* Try out the demo:   
+  <https://dom.az1.qualtrics.com/jfe/form/SV_1MsS71ODB4uA7n7>
+
+The word-search task is also like it sounds. You can use pre-defined grids, or the script can generate a grid for you. I’ve used it to try priming for power (control vs. power-related words hidden in the grid) and to look at frustration (by having a grid that \*doesn’t\* have all the target letters…mean, I know).
+
+![](image)
+![](image)
+
+* On Github:   
+  <https://github.com/rcalinjageman/word_search>
+* Try out the demo:   
+  <https://dom.az1.qualtrics.com/jfe/form/SV_didJZP14WPlvKPX>
+
+![](image)
+
+1. Cusack, M., Vezenkova, N., Gottschalk, C., & Calin-Jageman, R. J. (2015). Direct and Conceptual Replications of Burgmer & Englich (2012): Power May Have Little to No Effect on Motor Performance. *PLOS ONE*, e0140806. doi: [10.1371/journal.pone.0140806](https://doi.org/10.1371/journal.pone.0140806)

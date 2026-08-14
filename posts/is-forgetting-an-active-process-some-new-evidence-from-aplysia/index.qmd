@@ -1,0 +1,29 @@
+---
+title: Is forgetting an active process? Some new evidence from Aplysia
+date: '2023-12-19T03:54:05'
+categories:
+- News
+- Publications
+- Publications - Bob
+- Publications - Irina
+- ▼ Publications - Students
+---
+
+The SlugLab has a new preprint from a really cool experiment we conducted this summer (2023). Check it out here ​(Calin-Jageman et al., 2023)​: <https://osf.io/preprints/psyarxiv/xgfdk>.
+
+The results are a bit equivocal, but that’s the messiness of doing good science (“the data is the data”, as Bob’s PhD advisor was always fond of saying). In addition, we’re proud that this work has so many excellent student co-authors — well done Bryan, Elise, Zayra, Anna, Nelly, Leslie, Zayra, Jash, Elise, Dina and Theresa!
+
+Now to the science. We’ve been studying the transcriptional changes that occur when *Aplysia* form long-term sensitization memories. One intriguing thing we’ve found, is that some of the transcriptional changes we observe would seem to work *against* the expression of sensitization ​(Conte et al., 2017)​. Specifically, one of the strongest transcriptional changes that occurs when sea slugs form a new sensitization memory is a strong and long-lasting up-regulation of a transcript encoding FMRFamide (FMRFa), a peptide neurotransmitter ​(Patel et al., 2018; Perez, Patel, Rivota, Calin-Jageman, & Calin-Jageman, 2017)​. This is strange begauce FMRFa is *inhibitory* and it generally works to *depress synapses* and specifically *undoes* the types of synaptic changes that help encode sensitization. Why would this be happening?
+
+We’ve proposed the FMRFa is up-regulated because it is part of an *active forgetting* process — meaning a specific, biological pathway designed to erode/prune away memories. The idea would be that training produces transcriptional changes that encode sensitization but also produces a slower-developing increase in FMRFa, and that as FMRFa signalling increases it wears away the changes that maintain a sensitization memory, producing memory. Consistent with this hypothesis, we’ve found that FMRFa transcripts are up-regulated for a long time, even after sensitization memory seems completely forgotten.
+
+To test the role of FMRFa signalling in forgetting, we gave animals sensitization training and then manipulated FMRFa signalling: boosting it with direct injections or blocking it with injections of a drug (4-BPB) that prevents arachidonic acide release, a key step in the G-protein-coupled-signaling that FMRFa triggers in *Aplysia* neurons. After these injections, we tracked forgetting of sensitization, measuring the strength of memory 4, 6, and 13 days after training.
+
+What did we find? Well, inconsistent with our hypothesis we found that direct injection of FMRFa did alter forgetting at all. Bummer — sometimes you’re wrong! Or maybe we just didn’t use a strong enough dose, or the FMRFa didn’t get to the nervous system…. not sure. On the other hand, we found that 4-BPB *slowed forgetting* — animals in this condition had a stronger senstization memory 6-days after training than controls, and even had detectable levels of sensitization at day 13 (though no longer a clear difference from controls).
+
+So, what does this mean? Well, it seems pretty clear that arachidonic acid plays some type of role in forgetting of sensitization. But FMRFa may not… or maybe it does but our FMRFa condition just wasn’t strong/direct enough. We’re going to repeat the study in reduced preps where we can control the drug application just a bit more strongly (though where we’ll have to rely on a physiological measure of memory strength). Excited to see where this goes.
+
+1. Calin-Jageman, R., Delgadillo, B. G., Gamino, E., Juarez, Z., Kurkowski, A., Musajeva, N., … Calin-Jageman, I. (2023). *Evidence of Active-Forgetting Mechanisms:  Blocking Arachidonic Acid Release May Slow Forgetting of Sensitization in Aplysia*. Center for Open Science. doi: [10.31234/osf.io/xgfdk](https://doi.org/10.31234/osf.io/xgfdk)
+2. Conte, C., Herdegen, S., Kamal, S., Patel, J., Patel, U., Perez, L., … Calin-Jageman, I. E. (2017). Transcriptional correlates of memory maintenance following long-term sensitization of *Aplysia californica*. Cold Spring Harbor Laboratory. doi: [10.1101/lm.045450.117](https://doi.org/10.1101/lm.045450.117)
+3. Patel, U., Perez, L., Farrell, S., Steck, D., Jacob, A., Rosiles, T., … Calin-Jageman, I. E. (2018). Transcriptional changes before and after forgetting of a long-term sensitization memory in Aplysia californica. Elsevier BV. doi: [10.1016/j.nlm.2018.09.007](https://doi.org/10.1016/j.nlm.2018.09.007)
+4. Perez, L., Patel, U., Rivota, M., Calin-Jageman, I. E., & Calin-Jageman, R. J. (2017). Savings memory is accompanied by transcriptional changes that persist beyond the decay of recall. Cold Spring Harbor Laboratory. doi: [10.1101/lm.046250.117](https://doi.org/10.1101/lm.046250.117)

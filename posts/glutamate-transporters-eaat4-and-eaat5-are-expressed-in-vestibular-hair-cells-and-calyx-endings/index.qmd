@@ -1,0 +1,17 @@
+---
+title: Glutamate transporters EAAT4 and EAAT5 are expressed in vestibular hair cells
+  and calyx endings
+date: '2012-09-25T00:00:00'
+categories:
+- Publications - Irina
+---
+
+Dalet A, Bonsacquet J, Gaboyard-Niay S, Calin-Jageman I, Chidavaenzi RL, Venteo S, Desmadryl G, Goldberg JM, Lysakowski A, Chabbert C
+
+PLoS ONE 2012;7(9):e46261
+
+PMID: [23049999](http://www.ncbi.nlm.nih.gov/pubmed/23049999)
+
+## Abstract
+
+Glutamate is the neurotransmitter released from hair cells. Its clearance from the synaptic cleft can shape neurotransmission and prevent excitotoxicity. This may be particularly important in the inner ear and in other sensory organs where there is a continually high rate of neurotransmitter release. In the case of most cochlear and type II vestibular hair cells, clearance involves the diffusion of glutamate to supporting cells, where it is taken up by EAAT1 (GLAST), a glutamate transporter. A similar mechanism cannot work in vestibular type I hair cells as the presence of calyx endings separates supporting cells from hair-cell synapses. Because of this arrangement, it has been conjectured that a glutamate transporter must be present in the type I hair cell, the calyx ending, or both. Using whole-cell patch-clamp recordings, we demonstrate that a glutamate-activated anion current, attributable to a high-affinity glutamate transporter and blocked by DL-TBOA, is expressed in type I, but not in type II hair cells. Molecular investigations reveal that EAAT4 and EAAT5, two glutamate transporters that could underlie the anion current, are expressed in both type I and type II hair cells and in calyx endings. EAAT4 has been thought to be expressed almost exclusively in the cerebellum and EAAT5 in the retina. Our results show that these two transporters have a wider distribution in mice. This is the first demonstration of the presence of transporters in hair cells and provides one of the few examples of EAATs in presynaptic elements.

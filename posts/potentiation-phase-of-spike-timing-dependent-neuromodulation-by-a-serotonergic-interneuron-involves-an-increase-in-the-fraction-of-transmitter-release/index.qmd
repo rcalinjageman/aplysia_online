@@ -1,0 +1,17 @@
+---
+title: Potentiation phase of spike timing-dependent neuromodulation by a serotonergic
+  interneuron involves an increase in the fraction of transmitter release
+date: '2007-08-08T00:00:00'
+categories:
+- Publications - Bob
+---
+
+Sakurai A, Calin-Jageman RJ, Katz PS
+
+J. Neurophysiol. 2007 Oct;98(4):1975-87
+
+PMID: [17686912](http://www.ncbi.nlm.nih.gov/pubmed/17686912)
+
+## Abstract
+
+In the mollusk, Tritonia diomedea, the serotonergic dorsal swim interneuron (DSI) produces spike timing-dependent neuromodulation (STDN) of the synaptic output of ventral swim interneuron B (VSI) resulting in a biphasic, bidirectional change of synaptic strength characterized by a rapid heterosynaptic potentiation followed by a more prolonged heterosynaptic depression. This study examined the mechanism underlying the potentiation phase of STDN. In the presence of 4-aminopyridine, which blocks the depression phase and enhances transmitter release from VSI, rapidly stimulating VSI led to a steady-state level of transmitter depletion during which potentiation by DSI or serotonin (5-HT) was eliminated. Cumulative plots of excitatory postsynaptic currents were used to estimate changes in the size and replenishment rate of the readily releasable pool (RRP) and the fraction of release. 5-HT application increased transmitter release without altering replenishment rate. The magnitude of 5-HT-evoked potentiation correlated with the increase in the fraction of release. A phenomenological model of the synapse further supported the hypothesis that 5-HT-induced potentiation was caused by an increase in the fraction of release and correctly predicted no change in frequency facilitation. A dynamic version of the model correctly predicted the effect of DSI stimulation under a variety of conditions. Finally, depletion of internal Ca(2+) stores with cyclopiazonic acid showed that Ca(2+) from internal stores is necessary for the 5-HT-induced potentiation. The data indicate that 5-HT released from DSI increases the fraction of the RRP discharged during VSI action potentials using a mechanism that involves Ca(2+) extrusion from internal stores, resulting in time- and state-dependent neuromodulation.

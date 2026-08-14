@@ -1,0 +1,18 @@
+---
+title: What psychology instructors should know about Open Science and the New Statistics
+date: '2020-02-27T14:31:00'
+categories:
+- Publications - Bob
+---
+
+Beth Morling and I (Bob) have a new commentary out in *Teaching of Psychology* that provides an overview of the Open Science and New Statistics movements and gives some advice about how psychology instructors can bring these new developments into the traditional psychology curriculum ​(Morling & Calin-Jageman, 2020)​.
+
+Beth is a superstar, on many fronts, but is perhaps best known for her incredible *Research Methods in Psychology* textbook (https://wwnorton.com/books/9780393536263). Just being asked to work on this commentary was a thrill. Then, working together, I learned a lot from her, especially with her approach to writing, which kept us on task and productive.
+
+The article is open-access, so check it out. Here’s my favorite paragraph:
+
+> Introductory coursework is the ideal time to foster estimation thinking. Teachers can use the prompt, “How much?” to help students consider the magnitudes of effects and to seek context. Using the prompt, “How wrong?” can encourage students to embrace uncertainty and to introduce the key idea of sampling variation. Finally, prompting students with, “What else is known?” helps them see science as a cumulative and integrative process rather than as a series of “one-and-done” demonstrations. These three questions instill a nuanced view of science, where any one study is tenuous, and yet the cumulative evidence from a body of research can be compelling. This is a sophisticated epistemic viewpoint that avoids both excessive confidence and undue cynicism.
+>
+> Morling & Calin-Jageman, 2020, p. 174
+
+1. Morling, B., & Calin-Jageman, R. J. (2020). What Psychology Teachers Should Know About Open Science and the New Statistics. SAGE Publications. doi: [10.1177/0098628320901372](https://doi.org/10.1177/0098628320901372)

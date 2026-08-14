@@ -1,0 +1,17 @@
+---
+title: Regulation of the preprotachykinin-I gene promoter through a protein kinase
+  A-dependent, cyclic AMP response element-binding protein-independent mechanism
+date: '2006-03-03T00:00:00'
+categories:
+- Publications - Irina
+---
+
+Calin-Jageman IE, Wang J, Bannon MJ
+
+J. Neurochem. 2006 Apr;97(1):255-64
+
+PMID: [16515544](http://www.ncbi.nlm.nih.gov/pubmed/16515544)
+
+## Abstract
+
+Preprotachykinin-I (PPT) gene expression is regulated by a number of stimuli that signal through cyclic AMP (cAMP)-mediated pathways. In the present study, forskolin, an adenylyl cyclase stimulator, significantly increased PPT mRNA levels in PPT-expressing RINm5F cells, an effect paralleled by an increase in PPT promoter-luciferase reporter construct activity. The forskolin-induced stimulation of PPT transcription was protein kinase A dependent (PKA), as shown by blockade with the PKA inhibitor N-[2-(p-bromocinnamylamino) ethyl]-5-isoquinolinesulfonamide. We found that the activation protein 1/cAMP response element (AP1/CRE) site centered at -196 relative to the transcription start site was important for basal and forskolin-induced PPT promoter activity. Because of the involvement of PKA and the similarity of the AP1/CRE element to consensus CRE sequences, we investigated the role of CRE-binding protein (CREB) in the regulation of the PPT promoter. Surprisingly, overexpression of a dominant-negative CREB (i.e. CREB-A) did not affect basal or forskolin-induced PPT promoter activity. Furthermore, binding of CREB to the PPT promoter AP1/CRE site was not demonstrable in electrophoretic mobility shift assays. Rather, our experiments suggested that c-Jun is a member of the complex that binds to this site. We conclude that, at least in RINm5F cells, cAMP-mediated up-regulation of PPT gene expression does not involve CREB or CREB-related transcription factor recruitment to the AP1/CRE site.

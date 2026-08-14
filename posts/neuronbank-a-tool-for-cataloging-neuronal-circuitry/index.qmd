@@ -1,0 +1,16 @@
+---
+title: 'NeuronBank: A Tool for Cataloging Neuronal Circuitry'
+date: '2010-04-19T00:00:00'
+categories:
+- Publications - Bob
+---
+
+Katz PS, Calin-Jageman R, Dhawan A, Frederick C, Guo S, Dissanayaka R, Hiremath N, Ma W, Shen X, Wang HC, Yang H, Prasad S, Sunderraman R, Zhu Y
+
+Front Syst Neurosci 2010;4:9
+
+PMID: [20428500](http://www.ncbi.nlm.nih.gov/pubmed/20428500)
+
+## Abstract
+
+The basic unit of any nervous system is the neuron. Therefore, understanding the operation of nervous systems ultimately requires an inventory of their constituent neurons and synaptic connectivity, which form neural circuits. The presence of uniquely identifiable neurons or classes of neurons in many invertebrates has facilitated the construction of cellular-level connectivity diagrams that can be generalized across individuals within a species. Homologous neurons can also be recognized across species. Here we describe NeuronBank.org, a web-based tool that we are developing for cataloging, searching, and analyzing neuronal circuitry within and across species. Information from a single species is represented in an individual branch of NeuronBank. Users can search within a branch or perform queries across branches to look for similarities in neuronal circuits across species. The branches allow for an extensible ontology so that additional characteristics can be added as knowledge grows. Each entry in NeuronBank generates a unique accession ID, allowing it to be easily cited. There is also an automatic link to a Wiki page allowing an encyclopedic explanation of the entry. All of the 44 previously published neurons plus one previously unpublished neuron from the mollusc, Tritonia diomedea, have been entered into a branch of NeuronBank as have 4 previously published neurons from the mollusc, Melibe leonina. The ability to organize information about neuronal circuits will make this information more accessible, ultimately aiding research on these important models.

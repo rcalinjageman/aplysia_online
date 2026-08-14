@@ -1,0 +1,16 @@
+---
+title: Molecular microdomains in a sensory terminal, the vestibular calyx ending
+date: '2011-01-27T06:06:59'
+categories:
+- Publications - Irina
+---
+
+Lysakowski A, Gaboyard-Niay S, Calin-Jageman I, Chatlani S, Price SD, Eatock RA
+
+J. Neurosci. 2011 Jul;31(27):10101-14
+
+PMID: [21734302](http://www.ncbi.nlm.nih.gov/pubmed/21734302)
+
+## Abstract
+
+Many primary vestibular afferents form large cup-shaped postsynaptic terminals (calyces) that envelope the basolateral surfaces of type I hair cells. The calyceal terminals both respond to glutamate released from ribbon synapses in the type I cells and initiate spikes that propagate to the afferent’s central terminals in the brainstem. The combination of synaptic and spike initiation functions in these unique sensory endings distinguishes them from the axonal nodes of central neurons and peripheral nerves, such as the sciatic nerve, which have provided most of our information about nodal specializations. We show that rat vestibular calyces express an unusual mix of voltage-gated Na and K channels and scaffolding, cell adhesion, and extracellular matrix proteins, which may hold the ion channels in place. Protein expression patterns form several microdomains within the calyx membrane: a synaptic domain facing the hair cell, the heminode abutting the first myelinated internode, and one or two intermediate domains. Differences in the expression and localization of proteins between afferent types and zones may contribute to known variations in afferent physiology.

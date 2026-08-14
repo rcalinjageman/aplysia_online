@@ -1,0 +1,17 @@
+---
+title: Ca2+-binding proteins tune Ca2+-feedback to Cav1.3 channels in mouse auditory
+  hair cells
+date: '2007-10-18T00:00:00'
+categories:
+- Publications - Irina
+---
+
+Cui G, Meyer AC, Calin-Jageman I, Neef J, Haeseleer F, Moser T, Lee A
+
+J. Physiol. (Lond.) 2007 Dec;585(Pt 3):791-803
+
+PMID: [17947313](http://www.ncbi.nlm.nih.gov/pubmed/17947313)
+
+## Abstract
+
+Sound coding at the auditory inner hair cell synapse requires graded changes in neurotransmitter release, triggered by sustained activation of presynaptic Ca(v)1.3 voltage-gated Ca(2+) channels. Central to their role in this regard, Ca(v)1.3 channels in inner hair cells show little Ca(2+)-dependent inactivation, a fast negative feedback regulation by incoming Ca(2+) ions, which depends on calmodulin association with the Ca(2+) channel alpha(1) subunit. Ca(2+)-dependent inactivation characterizes nearly all voltage-gated Ca(2+) channels including Ca(v)1.3 in other excitable cells. The mechanism underlying the limited autoregulation of Ca(v)1.3 in inner hair cells remains a mystery. Previously, we established calmodulin-like Ca(2+)-binding proteins in the brain and retina (CaBPs) as essential modulators of voltage-gated Ca(2+) channels. Here, we demonstrate that CaBPs differentially modify Ca(2+) feedback to Ca(v)1.3 channels in transfected cells and explore their significance for Ca(v)1.3 regulation in inner hair cells. Of multiple CaBPs detected in inner hair cells (CaBP1, CaBP2, CaBP4 and CaBP5), CaBP1 most efficiently blunts Ca(2+)-dependent inactivation of Ca(v)1.3. CaBP1 and CaBP4 both interact with calmodulin-binding sequences in Ca(v)1.3, but CaBP4 more weakly inhibits Ca(2+)-dependent inactivation than CaBP1. Ca(2+)-dependent inactivation is marginally greater in inner hair cells from CaBP4(-/-) than from wild-type mice, yet CaBP4(-/-) mice are not hearing-impaired. In contrast to CaBP4, CaBP1 is strongly localized at the presynaptic ribbon synapse of adult inner hair cells both in wild-type and CaBP4(-/-) mice and therefore is positioned to modulate native Ca(v)1.3 channels. Our results reveal unexpected diversity in the strengths of CaBPs as Ca(2+) channel modulators, and implicate CaBP1 rather than CaBP4 in conferring the anomalous slow inactivation of Ca(v)1.3 Ca(2+) currents required for auditory transmission.
