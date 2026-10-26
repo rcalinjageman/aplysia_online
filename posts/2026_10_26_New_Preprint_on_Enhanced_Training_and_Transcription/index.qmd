@@ -1,0 +1,26 @@
+---
+title: New Preprint on the Transcriptional Correlates of Long-Lasting Sensitization
+date: '2026-10-26T15:17:25'
+categories:
+- News
+- Publications - Bob
+- Publications - Irina
+- ▼ Publications - Students
+bibliography: references.bib
+---
+
+We've got a new preprint out that is pretty exciting: [@calin-jageman]
+
+In this paper, we tracked transcriptional changes 1, 5, and 11 days after *enhanced* long-term sensitization training, a beef-ed up version of sensitization training (4 days in a row of noxious shocks) that produces a very enduring form of sensitization memory. Specifically, we found that enhanced training produced a sensitization memory with very little forgetting over 11 days, a dramatically different time-course than standard sensitization (1 day of noxious shocks), which fades completely within 1 week (though can still be re-expressed with a reminder).
+
+What we found was complex. Enhanced training preserved a relatively small fraction of the transcriptional changes that occur with enhanced training, with only about 68 transcripts regulated 1 day after standard training still showing clear regulation 1 day after enhanced training (that's just 6% of what is regulated by standard training, so even though the animals get *more* shocks, by the end of training there are *fewer* transcriptional changes). In addition, enhanced training *may* activate some distinct transcriptional changes, with about 22 transcripts we found regulated after enhanced training showing a clear differencein regulaiton from after standard. Maybe the long duration of memory produced by enhanced training is produced by these unique activations, or maybe the small set of transcripts from standard training engrain a memory when activated in a sustained way, or maybe both (or neither)?... Lots to do to follow up this study.
+
+We also found that most but not all of the transcriptional changes induced by enhanced sensitization training fade rapidly, with the vast majority showing a significant decline in regulation by days 5 and 11. And yet, a small subset show sustained regulation, including 5 of the 7 transcripts we have found to be very-persistently regulated after standard training. I find this fascinating. Some researchers believe all memory maintenance occurs locally, at synapses – and yet we repeatedly see some sustained transcriptional changes! On the other hand, we can't easily explain what these changes might be doing or why they persist so long. Maybe they're just some byproduct of stress/pain that has nothing specific to do with sensitization memory. Not sure, excited to explore, and excited to hear what feedback reviewers will have about this paper.
+
+As usual, a huge group of talented students helped make this project a success; we're proud of each and every one of them: Jashui Zarate Torres, Theresa Wilsterman, Christian Gonzalez, Jaquelin Gutierrez, Carys McFaul, Nelly Musajeva, Zayra Juarez, Steven Proutsos, Octavian Calin-Jageman.\
+
+Our pre-registration for this study is here: <https://osf.io/wvx6z/>
+
+Data is here: <https://zenodo.org/records/23354701>
+
+And here: <https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE350967>

@@ -1,7 +1,8 @@
 [
   {
-    "listing": "/blog.html",
+    "listing": "/index.html",
     "items": [
+      "/posts/2026_10_26_New_Preprint_on_Enhanced_Training_and_Transcription/index.html",
       "/posts/sluglab-alum-carys-mcfaul-wins-the-mulroy/index.html",
       "/posts/sluglab-in-the-news/index.html",
       "/posts/where-have-you-gone-early-transcriptional-changes/index.html",
@@ -83,14 +84,15 @@
       "/posts/regulation-of-the-preprotachykinin-i-gene-promoter-through-a-protein-kinase-a-dependent-cyclic-amp-response-element-binding-protein-independent-mechanism/index.html",
       "/posts/a-distributed-computing-tool-for-generating-neural-simulation-databases/index.html",
       "/posts/brain-specific-rgs9-2-is-localized-to-the-nucleus-via-its-unique-proline-rich-domain/index.html",
-      "/posts/temporal-and-spatial-aspects-of-an-environmental-stimulus-influence-the-dynamics-of-behavioral-regulation-of-the-aplysia-siphon-withdrawal-response/index.html",
       "/posts/synaptic-augmentation-contributes-to-environment-driven-regulation-of-the-aplysia-siphon-withdrawal-reflex/index.html",
+      "/posts/temporal-and-spatial-aspects-of-an-environmental-stimulus-influence-the-dynamics-of-behavioral-regulation-of-the-aplysia-siphon-withdrawal-response/index.html",
       "/posts/characterization-of-a-chlorella-virus-pbcv-1-encoded-ribonuclease-iii/index.html"
     ]
   },
   {
-    "listing": "/index.html",
+    "listing": "/blog.html",
     "items": [
+      "/posts/2026_10_26_New_Preprint_on_Enhanced_Training_and_Transcription/index.html",
       "/posts/sluglab-alum-carys-mcfaul-wins-the-mulroy/index.html",
       "/posts/sluglab-in-the-news/index.html",
       "/posts/where-have-you-gone-early-transcriptional-changes/index.html",
@@ -172,8 +174,8 @@
       "/posts/regulation-of-the-preprotachykinin-i-gene-promoter-through-a-protein-kinase-a-dependent-cyclic-amp-response-element-binding-protein-independent-mechanism/index.html",
       "/posts/a-distributed-computing-tool-for-generating-neural-simulation-databases/index.html",
       "/posts/brain-specific-rgs9-2-is-localized-to-the-nucleus-via-its-unique-proline-rich-domain/index.html",
-      "/posts/temporal-and-spatial-aspects-of-an-environmental-stimulus-influence-the-dynamics-of-behavioral-regulation-of-the-aplysia-siphon-withdrawal-response/index.html",
       "/posts/synaptic-augmentation-contributes-to-environment-driven-regulation-of-the-aplysia-siphon-withdrawal-reflex/index.html",
+      "/posts/temporal-and-spatial-aspects-of-an-environmental-stimulus-influence-the-dynamics-of-behavioral-regulation-of-the-aplysia-siphon-withdrawal-response/index.html",
       "/posts/characterization-of-a-chlorella-virus-pbcv-1-encoded-ribonuclease-iii/index.html"
     ]
   }
